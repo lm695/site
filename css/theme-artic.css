@@ -96,11 +96,11 @@ a.navbar-title, a.navbar-title:hover, a.navbar-title:focus {
     color: white;
 }
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: #f0f0f0;
+     color: var(--definition-colour);
 }
 
 a.navbar-brand:hover {
-  color: #f0f0f0;
+  color: var(--definition-colour);
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -113,7 +113,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
+    border-color: var(--main-colour) !important;
 }
 
 .btn-primary {
