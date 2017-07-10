@@ -20,11 +20,13 @@ html {
 
 
 h1 { 
+   	color: var(--darker-colour);
    	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-weight: 300; 
 	font-size: 20pt;
 }
 h2 {
+   	color: var(--darker-colour);
 	font-weight: 300; 
 	font-size: 18pt;
 }
@@ -33,10 +35,10 @@ h3 {
 	font-weight: 300; 
 	font-size: 14pt;
 }
-h4 { color: var(--grey-color); }
+h4 { color: var(--lighter-colour); }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    main-colour: var(--darker-colour);
+    background-color: var(--darker-colour);
     color: white;
 }
 
@@ -48,19 +50,19 @@ span.projectTitle {
 
 
 .nav > li.active > a {
-    main-colour: var(--main-colour);
+    background-color: var(--main-colour);
 }
 
 .nav > li > a:hover {
-    main-colour: var(--darker-colour);
+    background-color: var(--darker-colour);
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    main-colour: var(--main-colour);
+    background-color: var(--main-colour);
 }
 
 .nav li.thirdlevel > a {
-    main-colour: #FAFAFA !important;
+    background-color: #FAFAFA !important;
     color: #248EC2;
     font-weight: bold;
 }
@@ -72,7 +74,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    main-colour: var(--main-colour);
+    background-color: var(--main-colour);
     border-color: var(--darker-colour);
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
@@ -106,7 +108,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    main-colour: var(--darker-colour);
+    background-color: var(--darker-colour);
     color: #ffffff;
 }
 
@@ -116,24 +118,24 @@ a.navbar-brand:hover {
 
 .btn-primary {
     color: #ffffff;
-    main-colour: var(--lighter-colour);
+    background-color: var(--lighter-colour);
     border-color: var(--lighter-colour);
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    main-colour: var(--main-colour);
+    background-color: var(--main-colour);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .open .dropdown-toggle.btn-primary {
-    main-colour: var(--darker-colour);
+    background-color: var(--darker-colour);
     border-color: var(--darker-colour);
 }
 
 .btn-primary:active,
 .btn-primary.active {
-    main-colour: var(--main-colour);
+    background-color: var(--main-colour);
     border-color: var(--darker-colour);
 }
 
@@ -164,7 +166,7 @@ li.sidebarTitle {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    main-colour: var(--darker-colour);
+    background-color: var(--darker-colour);
 }
 
 .navbar-inverse .navbar-toggle {
@@ -234,13 +236,13 @@ table > thead > tr > th {
     border-bottom: 1px;
 	border-style:none none solid none;
     text-transform: none;
-    main-colour: transparent;
+    background-color: transparent;
     color: black;
     text-align: left;
     font-weight: 300;
 }
 table > tbody > tr:nth-of-type(odd) {
-    main-colour: transparent;
+    background-color: transparent;
 }
 
 
