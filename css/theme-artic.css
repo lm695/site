@@ -1,0 +1,247 @@
+:root{
+    --background-color:#4388a8; /* #347DBE var(--background-color) */
+	--darker-color:#265368; /* #015CAE */
+	--lighter-color:#62b1d6; 
+    --hilite-color:#adb24e; /* #ED1951 */
+    --definition-color:#4388a8; /* #248EC2 */
+    --grey-color:#707070; 
+}
+
+html {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+.summary {
+    color: var(--grey-color);
+    border-left: 5px solid var(--hilite-color);
+    font-size:16px;
+}
+
+
+h1 { 
+   	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300; 
+	font-size: 20pt;
+}
+h2 {
+	font-weight: 300; 
+	font-size: 18pt;
+}
+h3 { 
+	color: var(--hilite-color); 
+	font-weight: 300; 
+	font-size: 14pt;
+}
+h4 { color: var(--grey-color); }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: var(--darker-color);
+    color: white;
+}
+
+span.projectTitle {
+   	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300; 
+	font-size: 16pt;
+}
+
+
+.nav > li.active > a {
+    background-color: var(--background-color);
+}
+
+.nav > li > a:hover {
+    background-color: var(--darker-color);
+}
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    background-color: var(--background-color);
+}
+
+.nav li.thirdlevel > a {
+    background-color: #FAFAFA !important;
+    color: #248EC2;
+    font-weight: bold;
+}
+
+a[data-toggle="tooltip"] {
+    color: #649345;
+    font-style: italic;
+    cursor: default;
+}
+
+.navbar-inverse {
+    background-color: var(--background-color);
+    border-color: var(--darker-color);
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-logo {
+    color: white;
+	float: left;
+	height: 50px;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-size: 18px;
+	line-height: 20px;
+    vertical-align: middle;
+}
+a.navbar-title, a.navbar-title:hover, a.navbar-title:focus {
+	padding-top: 15px;
+	text-decoration: none;
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+     color: #f0f0f0;
+}
+
+a.navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: var(--darker-color);
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: var(--darker-color);
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #248ec2 !important;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: var(--lighter-color);
+    border-color: var(--lighter-color);
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: var(--background-color);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.open .dropdown-toggle.btn-primary {
+    background-color: var(--darker-color);
+    border-color: var(--darker-color);
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background-color: var(--background-color);
+    border-color: var(--darker-color);
+}
+
+.printTitle {
+    color: var(--darker-color) !important;
+}
+
+body.print h1 {color: #015CAE !important; font-size:28px !important;}
+body.print h2 {color: #595959 !important; font-size:20px !important;}
+body.print h3 {color: #E50E51 !important; font-size:14px !important;}
+body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
+
+.anchorjs-link:hover {
+    color: #216f9b;
+}
+
+div.sidebarTitle {
+    color: var(--darker-color);
+}
+
+li.sidebarTitle {
+  margin-top:20px;
+    font-weight:normal;
+    font-size:130%;
+    color: var(--hilite-color);
+    margin-bottom:10px;
+    margin-left: 5px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: var(--darker-color);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: var(--darker-color);
+}
+
+/*hr.faded {
+    border: 0;
+    height: 1px;
+    background-image: ;
+    color: #808080
+}*/
+
+hr.shaded {
+    height: 1px;
+    color: var(--grey-color)
+    border: 0;
+    margin-top: 70px;
+    background: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* FAQ question */
+a {
+    color: var(--definition-color);
+}
+
+figure {
+	text-align: center;
+}
+figure.table {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+figcaption {
+	text-align: left;
+	color: var(--grey-color);
+}
+
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+}
+
+table {
+    max-width: 90%;
+    margin-bottom: 20px;
+    border: none;
+    font-weight: 300;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    padding: 8px;
+    vertical-align: top;
+    border-top: none;
+}
+table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 1px;
+	border-style:none none solid none;
+    text-transform: none;
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    font-weight: 300;
+}
+table > tbody > tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+
+
+

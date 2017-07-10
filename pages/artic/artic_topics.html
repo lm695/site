@@ -1,0 +1,60 @@
+---
+title: ARTIC network contents
+tags: [help]
+last_updated: July 9, 2017
+keywords: about topics
+summary: "Content by topics and keywords."
+permalink: topics.html
+sidebar: artic_sidebar
+folder: artic
+---
+
+
+
+{% if site.output == "pdf" %}
+{{site.data.alerts.note}} The content on this page doesn't display well on PDF, but I included it anyway so you could see the problems this layout poses if you're including it in PDF.  {{site.data.alerts.end}}
+{% endif %}
+
+{% unless site.output == "pdf" %}
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+{% endunless %}
+
+      <div class="filter-options">
+      <button class="btn btn-primary" data-group="all">All</button>
+      <button class="btn btn-primary" data-group="about">About</button>
+    </div>      
+
+<div id="grid" class="row">
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["about"]'>
+
+               <div class="panel panel-default">
+               <div class="panel-heading">About</div>
+               <div class="panel-body">
+                  Pages to about the ARTIC network project. 
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "getting-started" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+                  </ul>
+               </div>
+            </div>
+    
+    </div>
+   
+          <!-- sizer -->
+      <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>          
+
+
+    </div><!-- /#grid -->
+
+{% unless site.output == "pdf" %}
+{% include initialize_shuffle.html %}
+{% endunless %}
+
+
