@@ -116,21 +116,29 @@ a.navbar-brand:hover {
     border-color: var(--main-colour) !important;
 }
 
-.nav ul li a {
+.nav li a {
     background-color: var(--main-colour);
+    color: var(--definition-colour);
 }
-
 .nav li a:hover {
-    background-color: var(--lighter-colour);
+    background-color: var(--darker-colour);
+    color: var(--definition-colour);
+}
+.nav li .active a {
+    background-color: var(--contrast-colour);
+    color: var(--definition-colour);
 }
 
-/*.nav ul li a {
-    border-top:1px solid var(--lighter-colour);
-    padding-left:10px;
-}*/
-
-.nav li .active .subfolder > a {
-    background-color: var(--contrast-colour);
+nav ul li a {
+    background-color: var(--lighter-colour);
+    color: var(--definition-colour);
+}
+nav ul li a:hover {
+    background-color: var(--darker-colour);
+    color: var(--definition-colour);
+}
+.nav li .active a {
+    background-color: var(--main-colour);
     color: var(--definition-colour);
 }
 
