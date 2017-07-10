@@ -1,9 +1,9 @@
 :root{
-    --background-color:#4388a8; /* #347DBE var(--background-color) */
-	--darker-color:#265368; /* #015CAE */
-	--lighter-color:#62b1d6; 
-    --hilite-color:#adb24e; /* #ED1951 */
-    --definition-color:#4388a8; /* #248EC2 */
+    --main-colour:#606c77; /* var(--main-colour) */
+	--darker-colour:#4b555e; 
+	--lighter-colour:#7f8f9d; 
+    --contrast-colour:#b02921;
+    --definition-colour:#eaece7;
     --grey-color:#707070; 
 }
 
@@ -13,8 +13,8 @@ html {
 }
 
 .summary {
-    color: var(--grey-color);
-    border-left: 5px solid var(--hilite-color);
+    color: var(--lighter-colour);
+    border-left: 5px solid var(--contrast-colour);
     font-size:16px;
 }
 
@@ -29,14 +29,14 @@ h2 {
 	font-size: 18pt;
 }
 h3 { 
-	color: var(--hilite-color); 
+	color: var(--contrast-colour); 
 	font-weight: 300; 
 	font-size: 14pt;
 }
 h4 { color: var(--grey-color); }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: var(--darker-color);
+    main-colour: var(--darker-colour);
     color: white;
 }
 
@@ -48,19 +48,19 @@ span.projectTitle {
 
 
 .nav > li.active > a {
-    background-color: var(--background-color);
+    main-colour: var(--main-colour);
 }
 
 .nav > li > a:hover {
-    background-color: var(--darker-color);
+    main-colour: var(--darker-colour);
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: var(--background-color);
+    main-colour: var(--main-colour);
 }
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
+    main-colour: #FAFAFA !important;
     color: #248EC2;
     font-weight: bold;
 }
@@ -72,8 +72,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: var(--background-color);
-    border-color: var(--darker-color);
+    main-colour: var(--main-colour);
+    border-color: var(--darker-colour);
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
@@ -102,11 +102,11 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    color: var(--darker-color);
+    color: var(--darker-colour);
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: var(--darker-color);
+    main-colour: var(--darker-colour);
     color: #ffffff;
 }
 
@@ -116,29 +116,29 @@ a.navbar-brand:hover {
 
 .btn-primary {
     color: #ffffff;
-    background-color: var(--lighter-color);
-    border-color: var(--lighter-color);
+    main-colour: var(--lighter-colour);
+    border-color: var(--lighter-colour);
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: var(--background-color);
+    main-colour: var(--main-colour);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .open .dropdown-toggle.btn-primary {
-    background-color: var(--darker-color);
-    border-color: var(--darker-color);
+    main-colour: var(--darker-colour);
+    border-color: var(--darker-colour);
 }
 
 .btn-primary:active,
 .btn-primary.active {
-    background-color: var(--background-color);
-    border-color: var(--darker-color);
+    main-colour: var(--main-colour);
+    border-color: var(--darker-colour);
 }
 
 .printTitle {
-    color: var(--darker-color) !important;
+    color: var(--darker-colour) !important;
 }
 
 body.print h1 {color: #015CAE !important; font-size:28px !important;}
@@ -151,24 +151,24 @@ body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !im
 }
 
 div.sidebarTitle {
-    color: var(--darker-color);
+    color: var(--darker-colour);
 }
 
 li.sidebarTitle {
   margin-top:20px;
     font-weight:normal;
     font-size:130%;
-    color: var(--hilite-color);
+    color: var(--contrast-colour);
     margin-bottom:10px;
     margin-left: 5px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: var(--darker-color);
+    main-colour: var(--darker-colour);
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: var(--darker-color);
+    border-color: var(--darker-colour);
 }
 
 /*hr.faded {
@@ -190,7 +190,7 @@ hr.shaded {
 
 /* FAQ question */
 a {
-    color: var(--definition-color);
+    color: var(--definition-colour);
 }
 
 figure {
@@ -234,13 +234,13 @@ table > thead > tr > th {
     border-bottom: 1px;
 	border-style:none none solid none;
     text-transform: none;
-    background-color: transparent;
+    main-colour: transparent;
     color: black;
     text-align: left;
     font-weight: 300;
 }
 table > tbody > tr:nth-of-type(odd) {
-    background-color: transparent;
+    main-colour: transparent;
 }
 
 
