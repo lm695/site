@@ -116,6 +116,24 @@ a.navbar-brand:hover {
     border-color: var(--main-colour) !important;
 }
 
+.nav ul li a {
+    background-color: var(--definition-colour);
+}
+
+.nav li a:hover {
+    background-color: var(--lighter-colour);
+}
+
+.nav ul li a {
+    border-top:1px solid var(--lighter-colour);
+    padding-left:10px;
+}
+
+.nav a:hover, .nav li.active > a {
+    background-color: var(--darker-colour);
+    color: #f5f5f5;
+}
+
 .btn-primary {
     color: #ffffff;
     background-color: var(--lighter-colour);
@@ -190,9 +208,8 @@ hr.shaded {
     margin-bottom: 10px;
 }
 
-/* FAQ question */
 a {
-    color: var(--definition-colour);
+    color: var(--main-colour);
 }
 
 figure {
