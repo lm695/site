@@ -116,6 +116,7 @@ a.navbar-brand:hover {
     border-color: var(--main-colour) !important;
 }
 
+/*
 .nav li a {
     background-color: var(--main-colour);
     color: var(--definition-colour);
@@ -129,18 +130,19 @@ a.navbar-brand:hover {
     color: var(--definition-colour);
 }
 
-nav ul li a {
+nav ul li > a {
     background-color: var(--lighter-colour);
     color: var(--definition-colour);
 }
-nav ul li a:hover {
+nav ul li > a:hover {
     background-color: var(--darker-colour);
     color: var(--definition-colour);
 }
-.nav li .active a {
+.nav ul li .active > a {
     background-color: var(--main-colour);
     color: var(--definition-colour);
 }
+*/
 
 .btn-primary {
     color: #ffffff;
