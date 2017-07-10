@@ -18,3 +18,14 @@ entries:
       url: /team.html
       output: web, pdf
 
+  - title: About2
+    output: web, pdf
+    folderitems:
+    - title: Project
+      url: /about.html
+      output: web, pdf
+
+    - title: Team
+      url: /team.html
+      output: web, pdf
+
