@@ -117,19 +117,19 @@ a.navbar-brand:hover {
 }
 
 .nav ul li a {
-    background-color: var(--definition-colour);
+    background-color: var(--main-colour);
 }
 
 .nav li a:hover {
     background-color: var(--lighter-colour);
 }
 
-.nav ul li a {
+/*.nav ul li a {
     border-top:1px solid var(--lighter-colour);
     padding-left:10px;
-}
+}*/
 
-.nav a:hover, .nav li.active > a {
+.nav li .active .subfolder > a {
     background-color: var(--contrast-colour);
     color: var(--definition-colour);
 }
