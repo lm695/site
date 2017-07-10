@@ -18,14 +18,14 @@ entries:
       url: /team.html
       output: web, pdf
 
-  - title: About2
+  - title: Viruses
     output: web, pdf
     folderitems:
-    - title: Project2
-      url: /about.html
+    - title: Ebola virus
+      url: /ebola.html
       output: web, pdf
 
-    - title: Team2
-      url: /team.html
+    - title: MERS Coronavirus
+      url: /merse.html
       output: web, pdf
 
