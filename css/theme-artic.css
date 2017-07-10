@@ -102,10 +102,6 @@ a.navbar-brand:hover {
     border-color: var(--main-colour) !important;
 }
 
-.nav > li.active > a {
-    background-color: var(--main-colour);
-}
-
 .nav li a:hover {
     background-color: var(--darker-colour);
 }
@@ -124,6 +120,10 @@ a.navbar-brand:hover {
 .nav ul li a {
     background-color: var(--definition-colour);
     color: var(--darker-colour);
+}
+
+.nav > li.active > a {
+    background-color: var(--main-colour);
 }
 
 .btn-primary {
