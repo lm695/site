@@ -21,11 +21,11 @@ entries:
   - title: About2
     output: web, pdf
     folderitems:
-    - title: Project
+    - title: Project2
       url: /about.html
       output: web, pdf
 
-    - title: Team
+    - title: Team2
       url: /team.html
       output: web, pdf
 
