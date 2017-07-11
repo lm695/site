@@ -13,7 +13,7 @@ Project 206298/Z/17/Z --- Putting genomic surveillance at the heart of viral epi
 
 Funded by the [Wellcome Trust](https://wellcome.ac.uk/).
 
-{% include image.html file="wellcome-logo-black-small.png" url="https://wellcome.ac.uk/" alt="Wellcome" caption="" %}
+{% include image.html file="wellcome-logo-red-small.png" url="https://wellcome.ac.uk/" alt="Wellcome" caption="" %}
 
 {{site.data.alerts.note}} This is an empty husk of a site waiting for content.{{site.data.alerts.end}}
 
