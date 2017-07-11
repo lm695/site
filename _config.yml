@@ -3,10 +3,10 @@ repository: artic-network/site
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: ARTIC network
+topnav_title: ARTICnetwork
 # this appears on the top navigation bar next to the home button
 
-site_title: ARTIC network
+site_title: ARTICnetwork
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: ARTIC project
