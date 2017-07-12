@@ -2,8 +2,8 @@
     --main-colour:#606c77; /* var(--main-colour) */
 	--darker-colour:#4b555e; 
 	--lighter-colour:#7f8f9d; 
-    --contrast-colour:#b02921;
-    --definition-colour:#b25f55; /* more saturated: #eaece7 */
+    --contrast-colour:#b25f55; /* more saturated: #b02921 */
+    --definition-colour:#eaece7; 
     --grey-color:#707070; 
 }
 
