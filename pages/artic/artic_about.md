@@ -10,8 +10,6 @@ toc: false
 folder: artic
 ---
 
-ARTIC network.
-
 {% include image.html file="logo.png" url="http://artic.network" alt="logo" caption="" %}
 
 {% include links.html %}
