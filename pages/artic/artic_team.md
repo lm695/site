@@ -28,5 +28,4 @@ This project is a collaboration between the following partners:
 <dd>Marc Suchard's expertise in Bayesian statistical analysis and ...</dd>
 </dl>
 
-
 {% include links.html %}

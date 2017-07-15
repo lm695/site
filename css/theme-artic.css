@@ -1,6 +1,6 @@
 :root{
-    --main-colour:#456571; /* var(--main-colour) more grey: 516570 */
-	--darker-colour:#354e58;
+    --main-colour:#3f4f54; /* var(--main-colour) more grey: 606c77 */
+	--darker-colour:#4b555e;
 	--lighter-colour:#7f8f9d; 
     --contrast-colour:#84393b; /* more saturated: #b02921 */
     --definition-colour:#eaece7; 
@@ -48,6 +48,10 @@ span.projectTitle {
 	font-size: 16pt;
 }
 
+.navbar-icon {
+    max-width: 40px;
+    max-height: 40px
+}
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
     background-color: var(--main-colour);
