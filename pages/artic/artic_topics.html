@@ -36,7 +36,7 @@ folder: artic
                   <ul>
                 {% for page in site.pages %}
                 {% for tag in page.tags %}
-                {% if tag == "getting-started" %}
+                {% if tag == "about" %}
                   <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
                 {% endif %}
                 {% endfor %}
@@ -46,8 +46,28 @@ folder: artic
             </div>
     
     </div>
-   
-          <!-- sizer -->
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["virus"]'>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">About</div>
+            <div class="panel-body">
+                Pages to about the ARTIC network project.
+                <ul>
+                    {% for page in site.pages %}
+                    {% for tag in page.tags %}
+                    {% if tag == "virus" %}
+                    <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- sizer -->
       <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>          
 
 

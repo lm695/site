@@ -22,10 +22,10 @@ entries:
     output: web, pdf
     folderitems:
     - title: Ebola virus
-      url: /ebola.html
+      url: /ebola_virus.html
       output: web, pdf
 
-    - title: MERS Coronavirus
-      url: /merse.html
+    - title: MERS coronavirus
+      url: /mers_coronavirus.html
       output: web, pdf
 
