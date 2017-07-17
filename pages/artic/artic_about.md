@@ -12,7 +12,7 @@ folder: artic
 
 {% include image.html file="logo.png" url="http://artic.network" alt="logo" caption="" %}
 
-This proposal is to develop an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
+This project aims to develop an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
 Fast evolving RNA viruses (such as Ebola, MERS, SARS, influenza etc) continually accumulate changes in their genomes that can be used to reconstruct the epidemiological processes that drive the epidemic.
 Based around a recently developed, single-molecule portable sequencing instrument, the [Oxford Nanopore Technology MinION](https://nanoporetech.com/), we are creating a 'lab-in-a-suitcase' that will be deployed to remote and resource-limited locations.
 These will be used to sequence viral genomes from infected patients, targetting a wide-range of emerging viral diseases.
