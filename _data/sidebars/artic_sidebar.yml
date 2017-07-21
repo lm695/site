@@ -2,10 +2,15 @@
 
 
 entries:
-- title: Sidebar
+- title: Contents
   product: 
   version: 
   folders:
+
+  - title: Home
+    output: web, pdf
+    item: true
+    url: /index.html
 
   - title: About
     output: web, pdf

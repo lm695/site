@@ -106,29 +106,47 @@ a.navbar-brand:hover {
     border-color: var(--main-colour) !important;
 }
 
-.nav li a:hover {
-    background-color: var(--darker-colour);
-}
-
-.nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
-    color: #248EC2;
-    font-weight: bold;
-}
-
-.nav li.active > a {
+.nav li > a:hover {
     background-color: var(--contrast-colour);
     color: var(--definition-colour);
 }
 
-.nav ul li a {
+.nav li > a {
     background-color: var(--definition-colour);
     color: var(--darker-colour);
 }
 
-.nav > li.active > a {
+.nav li.active.item > a {
     background-color: var(--main-colour);
+    color: var(--definition-colour);
 }
+
+.nav li.active > a {
+    background-color: var(--lighter-colour);
+    color: var(--definition-colour);
+}
+
+.nav ul li > a {
+    padding-left: 20px;
+    background-color: var(--definition-colour);
+    color: var(--darker-colour);
+}
+
+.nav ul li.active > a {
+    padding-left: 20px;
+    background-color: var(--main-colour);
+    color: var(--definition-colour);
+}
+
+
+
+.nav li .item > a > span::after {
+    content: none;
+}
+.nav li .item > a > span::after {
+    content: none;
+}
+
 
 .btn-primary {
     color: #ffffff;
