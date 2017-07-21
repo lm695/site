@@ -25,7 +25,7 @@ entries:
       url: /ebola_virus.html
       output: web, pdf
 
-    - title: MERS coronavirus
-      url: /mers_coronavirus.html
+    - title: Zika virus
+      url: /zika_virus.html
       output: web, pdf
 
