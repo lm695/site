@@ -1,7 +1,6 @@
 ---
 title:  "ARTIC network started"
-categories: documentation update
-permalink: update.html
+permalink: news_2017-07-01_1.html
 tags: [news]
 ---
 

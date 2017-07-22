@@ -1,7 +1,7 @@
 ---
-title:  "ARTIC network started"
-categories: documentation update
-permalink: update.html
+title:  "Primer scheme for Zaire Ebolavirus"
+categories: news
+permalink: news_2017-07-22_1.html
 tags: [news, virus]
 ---
 
