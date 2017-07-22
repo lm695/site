@@ -1,15 +1,19 @@
 :root{
     --main-colour:#3f4f54; /* var(--main-colour) more grey: 606c77 */
-	--darker-colour:#4b555e;
-	--lighter-colour:#7f8f9d; 
+    --darker-colour:#4b555e;
+    --lighter-colour:#7f8f9d;
     --contrast-colour:#84393b; /* more saturated: #b02921 */
-    --definition-colour:#eaece7; 
-    --grey-color:#707070; 
+    --definition-colour:#eaece7;
+    --grey-color:#707070;
 }
 
 html {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 400;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    font-size:16px;
 }
 
 .summary {
@@ -19,21 +23,21 @@ html {
 }
 
 
-h1 { 
-   	color: var(--darker-colour);
-   	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300; 
-	font-size: 20pt;
+h1 {
+    color: var(--darker-colour);
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 20pt;
 }
 h2 {
-   	color: var(--darker-colour);
-	font-weight: 300; 
-	font-size: 18pt;
+    color: var(--darker-colour);
+    font-weight: 300;
+    font-size: 18pt;
 }
-h3 { 
-	color: var(--contrast-colour); 
-	font-weight: 300; 
-	font-size: 14pt;
+h3 {
+    color: var(--contrast-colour);
+    font-weight: 300;
+    font-size: 14pt;
 }
 h4 { color: var(--lighter-colour); }
 
@@ -43,9 +47,9 @@ h4 { color: var(--lighter-colour); }
 }
 
 span.projectTitle {
-   	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	font-weight: 300; 
-	font-size: 16pt;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
 }
 
 .navbar-icon {
@@ -72,25 +76,25 @@ a[data-toggle="tooltip"] {
 }
 .navbar-logo {
     color: white;
-	float: left;
-	height: 50px;
-	padding-left: 15px;
-	padding-top: 5px;
-	font-size: 18px;
-	line-height: 20px;
+    float: left;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 20px;
     vertical-align: middle;
 }
 a.navbar-title, a.navbar-title:hover, a.navbar-title:focus {
-	padding-top: 15px;
-	text-decoration: none;
+    padding-top: 15px;
+    text-decoration: none;
     color: white;
 }
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-     color: var(--definition-colour);
+    color: var(--definition-colour);
 }
 
 a.navbar-brand:hover {
-  color: var(--definition-colour);
+    color: var(--definition-colour);
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
@@ -189,7 +193,7 @@ div.sidebarTitle {
 }
 
 li.sidebarTitle {
-  margin-top:20px;
+    margin-top:20px;
     font-weight:normal;
     font-size:130%;
     color: var(--contrast-colour);
@@ -227,16 +231,16 @@ a {
 }
 
 figure {
-	text-align: center;
+    text-align: center;
 }
 figure.table {
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 figcaption {
-	text-align: left;
-	color: var(--grey-color);
+    text-align: left;
+    color: var(--grey-color);
 }
 
 caption {
@@ -265,7 +269,7 @@ table > tfoot > tr > td {
 table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 1px;
-	border-style:none none solid none;
+    border-style:none none solid none;
     text-transform: none;
     background-color: transparent;
     color: black;
