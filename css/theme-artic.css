@@ -29,11 +29,23 @@ h1 {
     font-weight: 300;
     font-size: 20pt;
 }
+
+h1.site-title {
+    color: white;
+    font-size: 72pt;
+}
+
 h2 {
     color: var(--darker-colour);
     font-weight: 300;
     font-size: 18pt;
 }
+
+h2.site-subtitle {
+    color: var(--definition-colour);
+    font-size: 18pt;
+}
+
 h3 {
     color: var(--contrast-colour);
     font-weight: 300;
