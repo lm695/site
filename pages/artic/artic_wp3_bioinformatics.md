@@ -5,7 +5,6 @@ last_updated: October 5, 2017
 tags: [about]
 summary:
 sidebar: artic_sidebar
- The Field Laboratory
 permalink: wp3-bioinformatics.html
 toc: true
 folder: artic
