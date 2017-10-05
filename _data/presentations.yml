@@ -1,0 +1,27 @@
+presentations:
+- secret: 7HcqyI2QmHBmQ
+  tags: [wp2]
+
+- secret: 66CGaI2fpvzKHO
+  tags: [wp1]
+
+- secret: ks1hpIOf61eDZJ
+  tags: [wp1 wp2 wp3 wp4 wp5]
+
+- secret: KzL8R9MzwlMkuo
+  tags: [wp1]
+
+- secret: g2zSLFEGJbybjQ
+  title: Introduction to ARTIC
+  presenter: Nick Loman
+  date: 2017-10-03
+  venue: ARTIC Kick-off Meeting
+  tags: [wp1 wp2 wp3 wp4 wp5]
+
+- secret: g2zSLFEGJbybjQ
+  title: Phylogenetic data integration 
+  presenter: Philippe Lemey
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+
+- secret: 
