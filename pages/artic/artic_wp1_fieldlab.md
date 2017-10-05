@@ -1,5 +1,5 @@
 ---
-title: Work Package 1: The Field Laboratory
+title: "Work Package 1: The Field Laboratory"
 keywords: about
 last_updated: October 5, 2017
 tags: [about]

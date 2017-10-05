@@ -27,7 +27,7 @@ entries:
     url: /wp1-fieldlab.html
     output: web, pdf
 
-  - title: WP2 Bioinformatics
+  - title: WP2 Sequencing Methods
     url: /wp2-sequencing.html
     output: web, pdf
 
