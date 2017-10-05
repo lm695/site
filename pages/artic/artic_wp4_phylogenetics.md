@@ -10,6 +10,16 @@ toc: true
 folder: artic
 ---
 
-{% include image.html file="realTime+Trees-Maps.png" caption="" %}
+
+# Aims
 
 {% include links.html %}
+
+1. Generating a real-time temporal and evolutionary overview of the epidemic
+2. Revealing geographical dispersal and mapping genetic and phenotypic changes
+3. Approaches for incorporating within-host variation into phylodynamic analysis
+4. Testing hypotheses of epidemiological linkages between cases
+5. Evaluation of system
+
+{% include image.html file="realTime+Trees-Maps.png" caption="" %}
+
