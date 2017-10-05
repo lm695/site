@@ -10,4 +10,6 @@ toc: false
 folder: artic
 ---
 
+{% include image.html file="realTime+Trees-Maps.png" caption="" %}
+
 {% include links.html %}
