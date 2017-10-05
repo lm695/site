@@ -1,5 +1,5 @@
 ---
-title: Work Package 3: Sequencing Bioinformatics
+title: "Work Package 3: Sequencing Bioinformatics"
 keywords: about
 last_updated: October 5, 2017
 tags: [about]

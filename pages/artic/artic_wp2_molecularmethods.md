@@ -1,5 +1,5 @@
 ---
-title: Work Package 2: Molecular Methods for Sequencing
+title: "Work Package 2: Molecular Methods for Sequencing"
 keywords: about
 last_updated: October 5, 2017
 tags: [about]
