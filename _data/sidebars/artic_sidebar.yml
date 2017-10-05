@@ -23,6 +23,26 @@ entries:
       url: /team.html
       output: web, pdf
 
+  - title: WP1 Field Lab
+    url: /wp1-fieldlab.html
+    output: web, pdf
+
+  - title: WP2 Bioinformatics
+    url: /wp2-sequencing.html
+    output: web, pdf
+
+  - title: WP3 Bioinformatics
+    url: /wp3-bioinformatics.html
+    output: web, pdf
+
+  - title: WP4 Phylogenetics
+    url: /wp4-phylogenetics.html
+    output: web, pdf
+
+  - title: WP5 Visualisation
+    url: /wp5-viz-and-comms.html
+    output: web, pdf
+
   - title: Viruses
     output: web, pdf
     folderitems:
