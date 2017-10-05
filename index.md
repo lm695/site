@@ -1,6 +1,5 @@
 ---
 title: 
-title_page: true
 keywords: artic
 tags:
 sidebar: artic_sidebar
