@@ -5,7 +5,7 @@ keywords: artic
 tags:
 sidebar: artic_sidebar
 permalink: index.html
-toc: false
+toc: true
 summary:
 ---
 
