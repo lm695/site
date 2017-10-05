@@ -6,7 +6,7 @@ tags: [about]
 summary:
 sidebar: artic_sidebar
 permalink: wp1-fieldlab.html
-toc: false
+toc: true
 folder: artic
 ---
 
