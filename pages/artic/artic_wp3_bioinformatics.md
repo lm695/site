@@ -7,7 +7,7 @@ summary:
 sidebar: artic_sidebar
  The Field Laboratory
 permalink: wp3-bioinformatics.html
-toc: false
+toc: true
 folder: artic
 ---
 

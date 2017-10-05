@@ -6,7 +6,7 @@ tags: [about]
 summary:
 sidebar: artic_sidebar
 permalink: wp5-viz-and-comms.html
-toc: false
+toc: true
 folder: artic
 ---
 
