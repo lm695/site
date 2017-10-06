@@ -1,4 +1,19 @@
 presentations:
+- secret: g2zSLFEGJbybjQ
+  title: Introduction to ARTIC
+  presenter: Nick Loman
+  date: 2017-10-03
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp1
+    - wp2
+    - wp3
+    - wp4
+    - wp5
+
+- secret: KzL8R9MzwlMkuo
+  tags: [wp1]
+
 - secret: 7HcqyI2QmHBmQ
   tags: [wp2]
 
@@ -6,22 +21,48 @@ presentations:
   tags: [wp1]
 
 - secret: ks1hpIOf61eDZJ
-  tags: [wp1 wp2 wp3 wp4 wp5]
+  tags:
+   - wp1
+   - wp2
+   - wp3
+   - wp4
+   - wp5
 
-- secret: KzL8R9MzwlMkuo
-  tags: [wp1]
-
-- secret: g2zSLFEGJbybjQ
-  title: Introduction to ARTIC
-  presenter: Nick Loman
-  date: 2017-10-03
-  venue: ARTIC Kick-off Meeting
-  tags: [wp1 wp2 wp3 wp4 wp5]
-
-- secret: g2zSLFEGJbybjQ
+- secret: V5wCLh9PVt8kN
   title: Phylogenetic data integration 
   presenter: Philippe Lemey
   date: 2017-10-04
   venue: ARTIC Kick-off Meeting
+  tags:
+    - wp4
+    - wp5
 
-- secret: 
+- url: http://bedford.io/talks/phyloviz-artic/#/
+  title: Data integration, real-time pipelines and visualisation strategies
+  presenter: Trevor Bedford
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  type: html
+  tags:
+    - wp3
+    - wp4
+    - wp5
+
+- secret: https://www.slideshare.net/secret/cvklInAFEZhLUY
+  tite: Adaptive MCMC
+  presenter: Guy Baele
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp4
+
+- url: /presentations/kick-off-meeting/20171004-Gytis-meeting-slides.html
+  presenter: Gytis Dudas
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  type: html
+  tags:
+    - wp4
+    - wp5
+
+

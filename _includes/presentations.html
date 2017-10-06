@@ -4,7 +4,11 @@
 
 {% for tag in entry.tags %}
    {% if page.tags contains tag %}
-   <iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ entry.secret }}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/{{ entry.secret }}" title="" target="_blank"></a> </strong> from <strong><a href="https://www.slideshare.net/ARTICnetwork" target="_blank">ARTICnetwork</a></strong> </div>
+      {% if entry.type == 'html' %}
+<iframe src="{{ entry.url }}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+      {% else %}
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ entry.secret }}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/{{ entry.secret }}" title="" target="_blank"></a> </strong> from <strong><a href="https://www.slideshare.net/ARTICnetwork" target="_blank">ARTICnetwork</a></strong> </div>
+      {% endif %}
       {% break %}
    {% endif %}
 {% endfor %}
