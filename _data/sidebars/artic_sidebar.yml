@@ -43,6 +43,10 @@ entries:
     url: /wp5-viz-and-comms.html
     output: web, pdf
 
+  - title: Presentations
+    url: /presentations.html
+    output: web, pdf
+
   - title: Viruses
     output: web, pdf
     folderitems:
