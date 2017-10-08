@@ -6,7 +6,7 @@ tags: [wp2]
 summary:
 sidebar: artic_sidebar
 permalink: wp2-sequencing.html
-toc: true
+toc: false
 folder: artic
 ---
 

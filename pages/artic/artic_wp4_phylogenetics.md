@@ -6,7 +6,7 @@ tags: [wp4]
 summary:
 sidebar: artic_sidebar
 permalink: wp4-phylogenetics.html
-toc: true
+toc: false
 folder: artic
 ---
 
