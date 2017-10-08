@@ -1,17 +1,27 @@
 {% comment %}Pull out slides{%endcomment %}
 
+## Presentations
+
+<ul>
 {% for entry in site.data.presentations.presentations %}
 
 {% for tag in entry.tags %}
    {% if page.tags contains tag %}
-      {% if entry.type == 'html' %}
-<iframe src="{{ entry.url }}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+      {% if entry.url %}
+<li><a data-fancybox data-type="iframe" data-src="{{ entry.url }}" href="javascript:;">
+ <b>{{ entry.title }}</b> by {{ entry.presenter }} at {{ entry.venue }} ({{entry.date}})
+</a>
+</li>
       {% else %}
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/{{ entry.secret }}" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/secret/{{ entry.secret }}" title="" target="_blank"></a> </strong> from <strong><a href="https://www.slideshare.net/ARTICnetwork" target="_blank">ARTICnetwork</a></strong> </div>
+<li><a data-fancybox data-type="iframe" data-src="//www.slideshare.net/slideshow/embed_code/key/{{ entry.slideshare }}" href="javascript:;">
+ <b>{{ entry.title }}</b> by {{ entry.presenter }} at {{ entry.venue }} ({{entry.date}})
+</a>
+</li>
       {% endif %}
       {% break %}
    {% endif %}
 {% endfor %}
 
 {% endfor %}
+</ul>
 
