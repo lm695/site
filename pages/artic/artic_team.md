@@ -11,21 +11,47 @@ folder: artic
 ---
 
 This project is a collaboration between the following partners:
-<dl class="dl-horizontal">
-<dt>University of Edinburgh</dt>
-<dd>The group lead by Andrew Rambaut focuses on...</dd>
-<dt>University of Birmingham</dt>
-<dd>Nick Loman's group will...</dd>
-<dt>University of Cambridge</dt>
-<dd>Ian Goodfellow's group will...</dd>
-<dt>KU Leuven</dt>
-<dd>Philippe Lemey's group will...</dd>
-<dt>University of Oxford</dt>
-<dd>Christophe Fraser's group will...</dd>
-<dt>Fred Hutchinson Cancer Research Center</dt>
-<dd>Trevor Bedford's will lead the development of...</dd>
-<dt>University of California Los Angeles</dt>
-<dd>Marc Suchard's expertise in Bayesian statistical analysis and ...</dd>
-</dl>
+
+University of Edinburgh
+: Andrew Rambaut
+: Luiz Carvalho
+: Aine O'Toole
+: Verity Hill
+: Samantha Lycett
+
+University of Birmingham
+: Nick Loman
+: Josh Quick
+
+University of Cambridge
+: Ian Goodfellow
+: Luke Meredith
+
+KU Leuven
+: Philippe Lemey
+: Guy Baele
+: Mandev Gill
+: Simon Dellicour
+
+University of Oxford
+: Christophe Fraser
+: Oliver Pybus
+: Nuno Faria
+
+Fred Hutchinson Cancer Research Center
+: Trevor Bedford
+: Gytis Dudas
+: James Hadfield
+
+University of California Los Angeles
+: Marc Suchard
+
+University of Glasgow
+: Katie Hampson
+: Kirstyn Brunker
+
+Public Health England
+: Miles Carroll
+: Steven Pullan
 
 {% include links.html %}

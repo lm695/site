@@ -1,27 +1,116 @@
 presentations:
-- secret: 7HcqyI2QmHBmQ
-  tags: [wp2]
-
-- secret: 66CGaI2fpvzKHO
-  tags: [wp1]
-
-- secret: ks1hpIOf61eDZJ
-  tags: [wp1 wp2 wp3 wp4 wp5]
-
-- secret: KzL8R9MzwlMkuo
-  tags: [wp1]
-
-- secret: g2zSLFEGJbybjQ
+- slideshare: g2zSLFEGJbybjQ
   title: Introduction to ARTIC
+  presenter: Ian Goodfellow, Nick Loman and Andrew Rambaut
+  date: 2017-10-03
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp1
+    - wp2
+    - wp3
+    - wp4
+    - wp5
+
+- slideshare: KzL8R9MzwlMkuo
+  title: Experience of Portable Lab, Sierra Leone/Sao Tome
+  presenter: Ian Goodfellow
+  date: 2017-10-03
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp1
+    - wp2
+    - wp3
+
+- slideshare: 4F36vdMT243Rlg
+  title: Real-time bioinformatics in the field
   presenter: Nick Loman
   date: 2017-10-03
   venue: ARTIC Kick-off Meeting
-  tags: [wp1 wp2 wp3 wp4 wp5]
+  tags: 
+    - wp2
+    - wp3
 
-- secret: g2zSLFEGJbybjQ
+- slideshare: 66CGaI2fpvzKHO
+  title: Integrated Active and Genomic Rabies Surveillance
+  presenter: Kirstyn Brunker, University of Glasgow
+  venue: ARTIC Kick-off Meeting
+  date: 2017-10-03
+  tags: [wp1]
+
+- slideshare: ks1hpIOf61eDZJ
+  title: Towards a real-time genomic surveillance of arboviruses in the Americas
+  presenter: Nuno Faria, University of Oxford
+  venue: ARTIC Kick-off Meeting
+  date: 2017-10-03
+  tags:
+   - wp1
+   - wp2
+   - wp3
+   - wp4
+   - wp5
+
+- slideshare: V5wCLh9PVt8kN
   title: Phylogenetic data integration 
   presenter: Philippe Lemey
   date: 2017-10-04
   venue: ARTIC Kick-off Meeting
+  tags:
+    - wp4
+    - wp5
 
-- secret: 
+- url: http://bedford.io/talks/phyloviz-artic/#/
+  title: Data integration, real-time pipelines and visualisation strategies
+  presenter: Trevor Bedford
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp3
+    - wp4
+    - wp5
+
+- slideshare: cvklInAFEZhLUY
+  title: Adaptive MCMC in Bayesian Phylogenetics and Phylodynamics
+  presenter: Guy Baele
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp4
+
+- slideshare: z14acTZcuMSq5c
+  title: Inside Nextstrain
+  presenter: James Hadfield
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  tags: 
+    - wp4
+    - wp5 
+
+- slideshare: zaE1eEoz0njAX
+  title: What's coming next from ONT?
+  presenter: Josh Quick
+  date: 2017-10-04
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp1
+    - wp2
+    - wp3
+
+- slideshare: MVSIvpn8gee8z5
+  title: "Building a portable lab for the developing world: Questions and Challenges"
+  presenter: Luke Meredith
+  date: 2017-10-04 
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp1
+    - wp2
+
+- slideshare: mknw1ch62hAuuR
+  title: "From Phylogenetics to Prevention: HIV Case Study"
+  presenter: Christophe Fraser
+  date: 2017-10-03
+  venue: ARTIC Kick-off Meeting
+  tags:
+    - wp4
+    - wp5
+
+

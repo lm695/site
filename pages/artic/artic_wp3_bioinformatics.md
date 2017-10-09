@@ -6,7 +6,7 @@ tags: [wp3]
 summary:
 sidebar: artic_sidebar
 permalink: wp3-bioinformatics.html
-toc: true
+toc: false
 folder: artic
 ---
 
