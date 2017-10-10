@@ -228,6 +228,19 @@ li.sidebarTitle {
     color: #808080
 }*/
 
+.image-box {
+    padding: 0px;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-top: 16pt solid rgba(255, 255, 255, .75);
+    border-radius: 5px;
+    background-position: center;
+}
+
+.image-box-title {
+    margin-top:-16pt;
+}
+
 hr.shaded {
     height: 1px;
     color: var(--grey-color)
