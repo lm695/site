@@ -1,7 +1,7 @@
 ---
-title: 
-title_page: true
+browser_title: ARTICnetwork
 keywords: artic
+title_page: true
 tags:
 sidebar: artic_sidebar
 permalink: index.html
