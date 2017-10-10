@@ -30,7 +30,7 @@ entries:
     url: /wp3-bioinformatics.html
     output: web, pdf
 
-  - title: WP4 Phylogenetics
+  - title: WP4 Phylodynamics
     url: /wp4-phylogenetics.html
     output: web, pdf
 
