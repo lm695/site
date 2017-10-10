@@ -10,7 +10,7 @@ toc: false
 folder: artic
 ---
 
-{% include image.html file="logo.png" url="http://artic.network" alt="logo" caption="" %}
+<!-- {% include image.html file="logo.png" max-width="128px" url="http://artic.network" alt="logo" caption="" %} -->
 
 This project aims to develop an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
 Fast evolving RNA viruses (such as Ebola, MERS, SARS, influenza etc) continually accumulate changes in their genomes that can be used to reconstruct the epidemiological processes that drive the epidemic.
@@ -18,11 +18,14 @@ Based around a recently developed, single-molecule portable sequencing instrumen
 Targetting a wide-range of emerging viral diseases, the sequencing generation will be closely linked to the analysis platform to integrate these data and associated epidemiological knowledge to reveal the processes of transmission, virus evolution and epidemiological linkage with extremely rapid turn-around.
 This real-time approach will provide actionable epidemiological insights within days of samples being taken from patients.
 
-Project 206298/Z/17/Z --- Putting genomic surveillance at the heart of viral epidemic response.
-
-Funded by the [Wellcome Trust](https://wellcome.ac.uk/).
-
-{% include image.html file="wellcome-logo-red-small.png" url="https://wellcome.ac.uk/" alt="Wellcome" caption="" %}
+{% include icon-callout.html
+type='default'
+file='wellcome-logo-red-small.png'
+url='http://wellcome.ac.uk'
+width='17%'
+title='Funded by the Wellcome Trust'
+subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
+%}
 
 ## This project is a collaboration between the following partners:
 

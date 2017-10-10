@@ -21,9 +21,14 @@ In recent viral outbreaks including Ebola and MERS-CoV, molecular sequencing of 
 
 {% include callout.html content="[Visualisation and Data Communication](wp1_viz_and_integration)" %}
 
+{% include icon-callout.html
+type='default'
+file='wellcome-logo-red-small.png'
+url='http://wellcome.ac.uk'
+width='17%'
+title='Funded by the Wellcome Trust'
+subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
+%}
 
-<center>Funded by the [Wellcome Trust](https://wellcome.ac.uk/).</center>
-
-{% include image.html file="wellcome-logo-red-small.png" url="https://wellcome.ac.uk/" alt="Wellcome" caption="" %}
 
 {% include links.html %}
