@@ -20,15 +20,15 @@ In recent viral outbreaks including Ebola and MERS-CoV, molecular sequencing of 
 {% include image-box.html file="sequencing-icon.png" width="256px" height="256px" type="primary" url="wp2-molecularmethods" content="Portable sequencing" %}
         </div>
         <div style="width: 30%; display: table-cell; text-align: left">
-{% include image-box.html file="logo-no-text.png" width="256px" height="256px" type="primary" url="wp3-bioinformatics" content="Deployable bioinformatics" %}
+{% include image-box.html file="bioinformatics-icon.png" width="256px" height="256px" type="primary" url="wp3-bioinformatics" content="Deployable bioinformatics" %}
         </div>
     </div>
     <div style="display: table-row">
         <div style="width: 30%; display: table-cell; text-align: left">
-{% include image-box.html file="phylogeography-icon.png" width="256px" height="256px" type="primary" url="wp4-phylogenetics" content="Real-time phylodynamic analysis" %}
+{% include image-box.html file="phylodynamics-icon.png" width="256px" height="256px" type="primary" url="wp4-phylogenetics" content="Real-time phylodynamic analysis" %}
         </div>
         <div style="width: 30%; display: table-cell; text-align: left">
-{% include image-box.html file="logo-no-text.png" width="256px" height="256px" type="primary" url="wp1-viz-and-integration" content="Visualisation and data communication" %}
+{% include image-box.html file="phylogeography-icon.png" width="256px" height="256px" type="primary" url="wp1-viz-and-integration" content="Visualisation and interpretation" %}
         </div>
     </div>
 </div>
