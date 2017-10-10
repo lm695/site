@@ -14,9 +14,58 @@ folder: artic
 
 This project aims to develop an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
 Fast evolving RNA viruses (such as Ebola, MERS, SARS, influenza etc) continually accumulate changes in their genomes that can be used to reconstruct the epidemiological processes that drive the epidemic.
-Based around a recently developed, single-molecule portable sequencing instrument, the [Oxford Nanopore Technology MinION](https://nanoporetech.com/), we are creating a 'lab-in-a-suitcase' that will be deployed to remote and resource-limited locations.
-These will be used to sequence viral genomes from infected patients, targetting a wide-range of emerging viral diseases.
-The sequencing generation will be closely linked to the analysis platform to integrate these data and associated epidemiological knowledge to reveal the processes of transmission, virus evolution and epidemiological linkage with extremely rapid turn-around.
+Based around a recently developed, single-molecule portable sequencing instrument, the [Oxford Nanopore Technology MinION](https://nanoporetech.com/), we are creating a 'lab-in-a-suitcase' that can be deployed to remote and resource-limited locations.
+Targetting a wide-range of emerging viral diseases, the sequencing generation will be closely linked to the analysis platform to integrate these data and associated epidemiological knowledge to reveal the processes of transmission, virus evolution and epidemiological linkage with extremely rapid turn-around.
 This real-time approach will provide actionable epidemiological insights within days of samples being taken from patients.
+
+Project 206298/Z/17/Z --- Putting genomic surveillance at the heart of viral epidemic response.
+
+Funded by the [Wellcome Trust](https://wellcome.ac.uk/).
+
+{% include image.html file="wellcome-logo-red-small.png" url="https://wellcome.ac.uk/" alt="Wellcome" caption="" %}
+
+## This project is a collaboration between the following partners:
+
+University of Edinburgh
+: Andrew Rambaut
+: Luiz Carvalho
+: Aine O'Toole
+: Verity Hill
+: Samantha Lycett
+
+University of Birmingham
+: Nick Loman
+: Josh Quick
+
+University of Cambridge
+: Ian Goodfellow
+: Luke Meredith
+
+KU Leuven
+: Philippe Lemey
+: Guy Baele
+: Mandev Gill
+: Simon Dellicour
+
+University of Oxford
+: Christophe Fraser
+: Oliver Pybus
+: Nuno Faria
+
+Fred Hutchinson Cancer Research Center
+: Trevor Bedford
+: Gytis Dudas
+: James Hadfield
+
+University of California Los Angeles
+: Marc Suchard
+
+University of Glasgow
+: Katie Hampson
+: Kirstyn Brunker
+
+Public Health England
+: Miles Carroll
+: Steven Pullan
 
 {% include links.html %}

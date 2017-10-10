@@ -15,13 +15,8 @@ entries:
   - title: About
     output: web, pdf
     folderitems:
-    - title: Project
-      url: /about.html
-      output: web, pdf
-
-    - title: Team
-      url: /team.html
-      output: web, pdf
+    item: true
+    url: /about.html
 
   - title: WP1 Field Lab
     url: /wp1-fieldlab.html
