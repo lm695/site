@@ -10,11 +10,9 @@ tags:
 summary:
 sidebar: artic_sidebar
 permalink: presentations.html
-toc: true
+toc: false
 folder: artic
 ---
-
-## Presentations
 
 {% include presentations.html %}
 
