@@ -30,6 +30,9 @@ In recent viral outbreaks including Ebola and MERS-CoV, molecular sequencing of 
         <div style="width: 30%; display: table-cell; text-align: left">
 {% include image-box.html file="phylogeography-icon.png" width="256px" height="256px" type="primary" url="wp1-viz-and-integration" content="Visualisation and interpretation" %}
         </div>
+        <div style="width: 30%; display: table-cell; text-align: left">
+{% include image-box.html file="phylogeography-icon.png" width="256px" height="256px" type="primary" url="resources" content="Tools and resources" %}
+        </div>
     </div>
 </div>
 

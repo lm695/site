@@ -26,8 +26,6 @@ Sample prep, amplification and library generation traditionally requires AC-powe
 
 Our experience has indicated that contamination with PCR products is a major concern when operating in field conditions. Traditional PCR cabinets provide a clean workspace that can be routinely decontaminated by UV irradiation but are heavy, costly, difficult to repair and not appropriate for field deployment. We will develop a lightweight, collapsible sample/reagent preparation cabinet, with UV decontamination, by combining and repurposing low cost, lightweight and highly portable components. This will be combined with robust internal contamination controls and validated SOPs to allow a quantitative determination of contamination, essential when using iSNVs to reveal transmission links between cases (detailed in subsequent WPs).
 
-### Presentations
-
-{% include presentations.html %}
+### [Presentations on workpackages are available here](presentations)
 
 {% include links.html %}

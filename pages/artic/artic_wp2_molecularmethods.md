@@ -38,8 +38,6 @@ This method involves ligating a hairpin to individual molecules, and using a pro
 
 The MinION two-direction library preparation is currently laborious and takes around 2-3 hours to complete with expensive reagents. We have recently explored using the MuA transposome that removes the need for DNA end-repair and A-tailing and means a sequence library can be generated in 10 minutes. This approach generates only “1D” reads, but early experiments suggest these provide accurate variant calling at sufficiently high levels of sequence coverage depth. We will adapt this workflow to amplicons from RT-PCR, using specific sequences as part of a fusion barcode primer, and site-specific transposases to introduce the sequencing adaptor. When available we will adapt this to function on the announced nanofluidic programmable Voltrax, to minimise operator error (see letter of support from ONT). We will also investigate the performance and suitability of direct RNA nanopore (without generation of a cDNA molecule) sequencing directly from clinical samples. Finally we will investigate the ability to generate multiplex PCR products within minutes, by modifying the Extreme PCR protocol[18].
 
-### Presentations
-
-{% include presentations.html %}
+### [Presentations on workpackages are available here](presentations)
 
 {% include links.html %}

@@ -38,6 +38,10 @@ entries:
     url: /wp5-viz-and-comms.html
     output: web, pdf
 
+  - title: Resources
+    url: /resources.html
+    output: web, pdf
+
   - title: Presentations
     url: /presentations.html
     output: web, pdf
