@@ -18,6 +18,12 @@ entries:
     item: true
     url: /about.html
 
+  - title: Jobs Available
+    output: web, pdf
+    folderitems:
+    item: true
+    url: /recruiting.html
+
   - title: WP1 Field Lab
     url: /wp1-fieldlab.html
     output: web, pdf
