@@ -19,13 +19,17 @@ Post 1)
 [Further particulars and application information for this post are here](url).
 
 Post 2)
-: Based at the [Institute of Evolutionary Biology, University of Edinburgh](https://www.ed.ac.uk/biology/evolutionary-biology) as part of Andrew Rambaut's research group, this post will concentrate on [work package 4](wp4_phylogenetics) developing state-of-the-art methods for rapid phylodynamic analysis of real-time virus genome sequence data during outbreaks. 
+: Based at the [Institute of Evolutionary Biology, University of Edinburgh](https://www.ed.ac.uk/biology/evolutionary-biology) as part of [Andrew Rambaut's](http://tree.bio.ed.ac.uk) research group, this post will concentrate on [work package 4](wp4_phylogenetics) developing state-of-the-art methods for rapid phylodynamic analysis of real-time virus genome sequence data during outbreaks. 
 The researcher will work on developing and extending our Bayesian phylogenetic package [BEAST](http://beast.community) to rapidly update key epidemiological information about the spread and evolution of the outbreak as new virus genome sequences become available.
+
+This post would suit a researcher with experience of high-performance and massively-parallel computing and Bayesian statistical inference techniques, and who wants to work as part of a large multi-disciplinary project to provide tractable solutions to analysing large-scale virus genome data to inform public health response. 
  
 [Further particulars and application information for this post are here](url).
            
 Post 3)
-: Also part of Andrew Rambaut's research group at the University of Edinburgh, this post will concentrate on [work package 4](wp4_phylogenetics) and [work package 5](wp5-viz-and-comms), developing methods for making epidemiological inferences from virus genome sequences collected in real-time in an emerging outbreak both at a broad-scale (inferring the geographical spread and outbreak trajectory) and fine-scale (reconstructing chains of transmission to assist contact tracing and response). This work will include developing and implementing these models within a Bayesian phylogenetic framework ([BEAST](http://beast.community)) and (in collaboration with Trevor Bedford's and Philippe Lemey's research groups) creating informative and interpretable visualizations to inform outbreak response.
+: Also part of [Andrew Rambaut's](http://tree.bio.ed.ac.uk) research group at the University of Edinburgh, this post will concentrate on [work package 4](wp4_phylogenetics) and [work package 5](wp5-viz-and-comms), developing methods for making epidemiological inferences from virus genome sequences collected in real-time in an emerging outbreak both at a broad-scale (inferring zoonotic origins, geographical spread and outbreak trajectory) and fine-scale (reconstructing chains of transmission to assist contact tracing and response). This work will include developing and implementing these models within a Bayesian phylogenetic framework ([BEAST](http://beast.community)) and, in collaboration with [Trevor Bedford's](http://bedford.io) and [Philippe Lemey's](https://www.kuleuven.be/aidslab/phylogeography/home.html) research groups, creating informative and interpretable visualizations to inform outbreak response.
+
+This post would suit someone with interests and experience in infectious disease molecular epidemiology, statistical phylogenetic models of virus spread (i.e., coalescent or branching processes), and developing efficient inference techniques in a high-performance computing framework.
         
 [Further particulars and application information for this post are here](url).
            
