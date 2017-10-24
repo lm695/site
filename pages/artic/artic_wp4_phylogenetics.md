@@ -31,9 +31,7 @@ These analyses will be used to provide detailed, practical and interpretable vis
 ### Testing hypotheses of epidemiological linkages between cases
 
 
-### Presentations
-
-{% include presentations.html %}
+### [Presentations on workpackages are available here](presentations)
 
 {% include links.html %}
 
