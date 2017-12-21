@@ -5,7 +5,7 @@ last_updated: October 5, 2017
 tags: [wp5]
 summary:
 sidebar: artic_sidebar
-permalink: wp5-viz-and-comms.html
+permalink: wp5-vizualization.html
 toc: false
 folder: artic
 ---
