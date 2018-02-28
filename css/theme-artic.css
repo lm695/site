@@ -1,8 +1,9 @@
 :root{
-    --main-colour:#45565c; /* var(--main-colour) better: 3f4f54 */
+    --main-colour:#005C68; /* var(--main-colour) better: 3f4f54 */
+    --text-colour:#F6EECA; /* var(--main-colour) better: 3f4f54 */
     --darker-colour:#4b555e;
     --lighter-colour:#7f8f9d;
-    --contrast-colour:#84393b; /* more saturated: #b02921 */
+    --contrast-colour:#F1605D; /* more saturated: #b02921 */
     --definition-colour:#eaece7;
     --grey-color:#707070;
 }
@@ -31,7 +32,7 @@ h1 {
 }
 
 h1.site-title {
-    color: white;
+    color: var(--text-colour);
     font-size: 72pt;
 }
 
@@ -42,7 +43,7 @@ h2 {
 }
 
 h2.site-subtitle {
-    color: var(--definition-colour);
+    color: var(--text-colour);
     font-size: 18pt;
 }
 
