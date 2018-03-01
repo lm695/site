@@ -1,11 +1,12 @@
 :root{
     --main-colour:#005C68; /* var(--main-colour) better: 3f4f54 */
-    --text-colour:#F6EECA; /* var(--main-colour) better: 3f4f54 */
+    --text-colour:#F6EECA;
+    --background-colour:#fffef7;
     --darker-colour:#4b555e;
     --lighter-colour:#7f8f9d;
     --contrast-colour:#F1605D; /* more saturated: #b02921 */
-    --definition-colour:#eaece7;
-    --grey-color:#707070;
+    --definition-colour:#7f8f9d;
+    --grey-colour:#707070;
 }
 
 html {
@@ -15,6 +16,7 @@ html {
 
 body {
     font-size:16px;
+    background-color: var(--background-colour);
 }
 
 .summary {
@@ -125,34 +127,34 @@ a.navbar-brand:hover {
 
 .nav li > a:hover {
     background-color: var(--contrast-colour);
-    color: var(--definition-colour);
+    color: var(--background-colour);
 }
 
 .nav li > a {
     background-color: var(--definition-colour);
-    color: var(--darker-colour);
+    color: var(--background-colour);
 }
 
 .nav li.active.item > a {
     background-color: var(--main-colour);
-    color: var(--definition-colour);
+    color: var(--background-colour);
 }
 
 .nav li.active > a {
     background-color: var(--lighter-colour);
-    color: var(--definition-colour);
+    color: var(--background-colour);
 }
 
 .nav ul li > a {
     padding-left: 20px;
     background-color: var(--definition-colour);
-    color: var(--darker-colour);
+    color: var(--background-colour);
 }
 
 .nav ul li.active > a {
     padding-left: 20px;
     background-color: var(--main-colour);
-    color: var(--definition-colour);
+    color: var(--background-colour);
 }
 
 
@@ -247,9 +249,15 @@ li.sidebarTitle {
     margin-top:-16pt;
 }
 
+.bs-callout {
+    border-color: var(--main-colour);
+    background-color: var(--text-colour);
+}
+
+
 hr.shaded {
     height: 1px;
-    color: var(--grey-color);
+    color: var(--grey-colour);
     border: 0;
     margin-top: 70px;
     background: white;
@@ -271,7 +279,7 @@ figure.table {
 }
 figcaption {
     text-align: left;
-    color: var(--grey-color);
+    color: var(--grey-colour);
 }
 
 caption {
