@@ -92,12 +92,13 @@
             <!-- Sidebar Column -->
             {% if page.title_page %}
             <div class="col-md-3" id="tg-sb-sidebar" style="display:none">
+                {% assign content_col_size = "col-md-12" %}
             {% else %}
             <div class="col-md-3" id="tg-sb-sidebar">
+                {% assign content_col_size = "col-md-9" %}
             {% endif %}
                 {% include sidebar.html %}
             </div>
-            {% assign content_col_size = "col-md-9" %}
             {% endunless %}
 
             <!-- Content Column -->

@@ -10,7 +10,7 @@ toc: false
 folder: artic
 ---
 
-<!-- {% include image.html file="logo.png" max-width="128px" url="http://artic.network" alt="logo" caption="" %} -->
+<div style="float: left; padding: 0px 10px 0px 0px">{% include image.html file="logo-sticker.png" max-width="200px" url="http://artic.network" alt="logo" caption="" %} </div>
 
 This project is developing an end-to-end system for processing samples from viral outbreaks to generate real-time epidemiological information that is interpretable and actionable by public health bodies.
 Fast evolving RNA viruses (such as Ebola, MERS, SARS, influenza etc) continually accumulate changes in their genomes that can be used to reconstruct the epidemiological processes that drive the epidemic.

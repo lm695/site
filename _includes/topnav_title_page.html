@@ -1,7 +1,9 @@
 <!-- Navigation -->
-<nav class="navbar navbar-inverse navbar-static-top">
-    <img style="float: left; max-height: 258px; padding: 10px 10px 10px 10px" src="/images/logo-no-text.png" alt="logo" />
-    <div class="container topnavlinks">
+<nav class="navbar navbar-inverse navbar-static-top" >
+    <!--
+    <img style="float: left; max-width: 70vw" src="/images/logo-banner.png" alt="logo" />
+    -->
+    <div class="container topnavlinks" style="background-image: url(/images/logo-banner.png); background-size: 100vw auto; background-repeat: no-repeat; background-position: left top">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -14,7 +16,7 @@
             -->
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" style="max-width:100%">
                 <li><a class="fa fa-home" href="index.html">&nbsp;</a></li>
                 <!-- toggle sidebar button -->
                 <!-- for the title nav bar we will start with the sidebar off -->
@@ -59,8 +61,8 @@
                 {% include feedback.html %}
                 {% endif %}
                 <!--comment out this block if you want to hide search-->
+                <!--
                 <li>
-                    <!--start search-->
                     <div id="search-demo-container">
                         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
                         <ul id="results-container"></ul>
@@ -77,13 +79,15 @@
                             fuzzy: true,
                         })
                     </script>
-                    <!--end search-->
                 </li>
+                -->
             </ul>
+            <!--
             <div style="padding-left: 20px">
                 <h1 class="site-title">ARTICnetwork</h1>
                 <h2 class="site-subtitle">Putting genomic surveillance at the heart of viral epidemic response.</h2>
             </div>
+            -->
         </div>
     </div>
     <!-- /.container -->

@@ -85,10 +85,10 @@ a[data-toggle="tooltip"] {
     border-color: var(--darker-colour);
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: white;
+    color: var(--text-colour);
 }
 .navbar-logo {
-    color: white;
+    color: var(--text-colour);
     float: left;
     height: 50px;
     padding-left: 15px;
@@ -100,7 +100,7 @@ a[data-toggle="tooltip"] {
 a.navbar-title, a.navbar-title:hover, a.navbar-title:focus {
     padding-top: 15px;
     text-decoration: none;
-    color: white;
+    color: var(--text-colour);
 }
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
     color: var(--definition-colour);
@@ -219,8 +219,13 @@ li.sidebarTitle {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: var(--darker-colour);
+    border-color: var(--text-colour);
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: var(--text-colour);
+}
+
 
 /*hr.faded {
     border: 0;
@@ -244,7 +249,7 @@ li.sidebarTitle {
 
 hr.shaded {
     height: 1px;
-    color: var(--grey-color)
+    color: var(--grey-color);
     border: 0;
     margin-top: 70px;
     background: white;
