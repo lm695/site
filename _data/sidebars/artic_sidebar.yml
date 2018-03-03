@@ -15,8 +15,21 @@ entries:
   - title: About
     output: web, pdf
     folderitems:
-    item: true
-    url: /about.html
+    - title: The Project
+      output: web, pdf
+      url: /about.html
+
+    - title: Partners
+      output: web, pdf
+      url: /partners.html
+
+    - title: Collaborators
+      output: web, pdf
+      url: /collaborators.html
+
+    - title: Scientific Advisory Board
+      output: web, pdf
+      url: /sab.html
 
   - title: WP1 Field Lab
     url: /wp1-fieldlab.html
