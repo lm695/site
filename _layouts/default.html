@@ -77,41 +77,43 @@
 
 </head>
 <body>
-{% if page.title_page %}
-{% include topnav_title_page.html %}
-{% else %}
-{% include topnav.html %}
-{% endif %}
-<!-- Page Content -->
-<div class="container">
-    <div id="main">
-        <!-- Content Row -->
-        <div class="row">
-            {% assign content_col_size = "col-md-12" %}
-            {% unless page.hide_sidebar %}
-            <!-- Sidebar Column -->
-            {% if page.title_page %}
-            <div class="col-md-3" id="tg-sb-sidebar" style="display:none">
+<div class="page">
+    {% if page.title_page %}
+    {% include topnav_title_page.html %}
+    {% else %}
+    {% include topnav.html %}
+    {% endif %}
+    <!-- Page Content -->
+    <div class="container">
+        <div id="main">
+            <!-- Content Row -->
+            <div class="row">
                 {% assign content_col_size = "col-md-12" %}
-            {% else %}
-            <div class="col-md-3" id="tg-sb-sidebar">
-                {% assign content_col_size = "col-md-9" %}
-            {% endif %}
-                {% include sidebar.html %}
-            </div>
-            {% endunless %}
+                {% unless page.hide_sidebar %}
+                <!-- Sidebar Column -->
+                {% if page.title_page %}
+                <div class="col-md-3" id="tg-sb-sidebar" style="display:none">
+                    {% assign content_col_size = "col-md-12" %}
+                    {% else %}
+                    <div class="col-md-3" id="tg-sb-sidebar">
+                        {% assign content_col_size = "col-md-9" %}
+                        {% endif %}
+                        {% include sidebar.html %}
+                    </div>
+                    {% endunless %}
 
-            <!-- Content Column -->
-            <div class="{{content_col_size}}" id="tg-sb-content">
-                {{content}}
+                    <!-- Content Column -->
+                    <div class="{{content_col_size}}" id="tg-sb-content">
+                        {{content}}
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
             </div>
-            <!-- /.row -->
+            <!-- /#main -->
         </div>
-        <!-- /.container -->
     </div>
-    <!-- /#main -->
 </div>
-
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

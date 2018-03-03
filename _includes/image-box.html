@@ -1,9 +1,18 @@
-<a class="noCrossRef" href="{{include.url}}">
-    <div class="image-box" style="background-image: url('{{include.prefix}}/images/{{include.file}}');
-{% if {{include.color}} %}border-top-color: {{include.color}}; {% endif %}
+<div class="image-box-container" style="
+/*width: 33%;*/
+/*padding-top: 33%;*/
 {% if {{include.width}} %}width: {{include.width}}; {% endif %}
 {% if {{include.height}} %}height: {{include.height}}; {% endif %}
 ">
-    <div class="image-box-title">{{include.content}}</div>
+<a class="noCrossRef" href="{{include.url}}">
+<div class="image-box" style="background-image: url('{{include.prefix}}/images/{{include.file}}');">
+<div class="image-box-title">{{include.content}}</div>
+</div>
+<div class="image-box-overlay">
+<div class="image-box-title">{{include.content}}</div>
+{% if {{include.overlay}} %}
+<div class="image-box-text">{{include.overlay}}</div>
+{% endif %}
 </div>
 </a>
+</div>
