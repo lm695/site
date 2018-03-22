@@ -38,7 +38,10 @@ Steven Pullan
 : Public Health England
 
 Oliver Pybus
-: University of Oxford
+: <a href="http://evolve.zoo.ox.ac.uk">Department of Zoology, University of Oxford</a>
+
+David Spiro
+: <a href="https://www.fic.nih.gov/About/Staff/Pages/epidemiology-population.aspx">Division of International Epidemiology and Population Studies, Fogarty International Center, NIH</a>
 
 
 
