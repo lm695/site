@@ -59,8 +59,8 @@ Here is the same tree as above but with the tips labeled by the type of host the
 
 You can immediately see that there is some structure there with viruses grouping by host. For example the two viruses from humans have a closer common ancestor with each other than they do with any other virus. At first glance it may seem that human viruses are more closely related to bat viruses than camel viruses because they sit next to each other but remember that the vertical dimension is meaningless. In fact the viruses can be swapped round at any internal node and the tree is the same:
 
-{% include image.html file="phylogram_4a.png" caption="" %}
-{% include image.html file="phylogram_4b.png" caption="" %}
+{% include image.html file="phylogram_4a.png" max-width="50%" caption="" %}
+{% include image.html file="phylogram_4b.png" max-width="50%" caption="" %}
 
 In fact the human and camel viruses are more closely related to each other and equally related to the bat viruses. This means we can't say from this tree if camels are the source of the human viruses or vice-versa, or just as likely, bats are independently the source of both human and camel outbreaks. We can however suggest that bats were the ultimate source of both camel and human  viruses because of the much greater diversity of bat viruses. Another way to look at this is that the common ancestors of the human and camel viruses lie within the diversity of all the bat viruses.
 
@@ -68,9 +68,9 @@ In fact the human and camel viruses are more closely related to each other and e
 
 In this tree the internal nodes are labelled with the reconstructed host species based on the principle of parsimony. This is the reconstruction that requires the fewest jumps between host species. The grey nodes are those that cannot be unambiguously reconstructed. For example, the common ancestor of the human and camel viruses could equally well be in humans, bats or camels with all three possibilities only requiring 2 host jumps:
 
-{% include image.html file="phylogram_5a.png" caption="" %}
-{% include image.html file="phylogram_5b.png" caption="" %}
-{% include image.html file="phylogram_5c.png" caption="" %}
+{% include image.html file="phylogram_5a.png" max-width="50%" caption="" %}
+{% include image.html file="phylogram_5b.png" max-width="50%" caption="" %}
+{% include image.html file="phylogram_5c.png" max-width="50%" caption="" %}
 
 Distinguishing these three possibilities generally requires additional data perhaps with a denser sampling of viruses. 
 
