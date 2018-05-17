@@ -14,81 +14,54 @@ folder: artic
 The following protocol is adapted from the methods of Quick et al. (Nature Protocols volume 12, pages 1261–1276 (2017), [doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066) and covers primers, amplicon preparation and clean-up, then uses a single-tube protocol to barcode and adaptor ligate the library, before running minION. 
 
 ### Equipment required:
-2 Portable nucleic acid preparation hood or equivalent
 
-1 12V vortex
-
-1 Sprout® portable centrifuge
-
-1 1mL Eppendorf pipette
-
-1 0.1mL Eppendorf pipette
-
-1 0.01L Eppendorf pipette
-
-1 1.5mL/0.6mL convertible tube rack
-
-1 Qubit 4 Fluorometer (ThermoFisher™)
-
-1 miniPCR machine.
-
-1 Heat block
- 
-1 magnetic rack
+   |---:|:---
+   |2| Portable nucleic acid preparation hood or equivalent
+   |1| 12V vortex
+   |1| Sprout® portable centrifuge
+   |1| 1mL Eppendorf pipette
+   |1| 0.1mL Eppendorf pipette
+   |1| 0.01L Eppendorf pipette
+   |1| 1.5mL/0.6mL convertible tube rack
+   |1| Qubit 4 Fluorometer (ThermoFisher™)
+   |1| miniPCR machine.
+   |1| Heat block
+   |1| magnetic rack
 
 ### Consumables required:
  
-Vilo SSIV RT 2x MasterMix
-
-Q5 Hotstart HF polymerase 2x Mastermix
-
-Ebola Zaire Primers V1
-
-NEBNext UltraII End-prep module
-
-NEBNext UltraII Ligase module
-
-NEBNext FFPE Repair module
-
-Agencourt AMPureXP Beads
-
-Nanopore Ligation Sequencing Kit 1D
-
-Nanopore Native Barcoding Expansion Kit
-
-Nanopore R9.4.1 Flow cells
-
-1.5mL eppendorf tubes
-
-0.2mL 8-strip tubes
-
-50mL transfer tubes
-
-Qubit Reaction Tubes
-
-Qubit 1x dsDNA HS Assay kit
-
-Nuclease-free water
-
-70% Ethanol
-
-1mL pipette tips
-
-0.1mL pipette tips
-
-0.01mL pipette tips
-
-Paper towelling 
-
-Clinical waste sharps containers
+   |---:|:---
+   || Vilo SSIV RT 2x MasterMix
+   || Q5 Hotstart HF polymerase 2x Mastermix
+   || Ebola Zaire Primers V1
+   || NEBNext UltraII End-prep module
+   || NEBNext UltraII Ligase module
+   || NEBNext FFPE Repair module
+   || Agencourt AMPureXP Beads
+   || Nanopore Ligation Sequencing Kit 1D
+   || Nanopore Native Barcoding Expansion Kit
+   || Nanopore R9.4.1 Flow cells
+   || 1.5mL eppendorf tubes
+   || 0.2mL 8-strip tubes
+   || 50mL transfer tubes
+   || Qubit Reaction Tubes
+   || Qubit 1x dsDNA HS Assay kit
+   || Nuclease-free water
+   || 70% Ethanol
+   || 1mL pipette tips
+   || 0.1mL pipette tips
+   || 0.01mL pipette tips
+   || Paper towelling 
+   || Clinical waste sharps containers
 
 ### Safety, containment and contamination recommendations
-Back-tie hydrophobic lab gown
-Gloves
-UV light sterilizers
-MediPal Decontamination wipes
-DNAway and RNAse Zap® reagent 
 
+   |---:|:---
+   || Back-tie hydrophobic lab gown
+   || Gloves
+   || UV light sterilizers
+   || MediPal Decontamination wipes
+   || DNAway and RNAse Zap® reagent
 
 ## cDNA synthesis with Superscript IV Vilo cDNA kit
 
