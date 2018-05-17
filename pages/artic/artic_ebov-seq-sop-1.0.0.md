@@ -241,7 +241,7 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 17. Carefully **record all results** and store run file from the Qubit on a memory stick. 
 
-## Barocoding and adaptor ligation: One-pot protocol.
+### Barocoding and adaptor ligation: One-pot protocol.
  
 > **NOTE:** This is a ‘one-pot ligation’ protocol for native barcoded ligation libraries. We have seen no reduction in performance compared to standard libraries, and is made faster by using the Ultra II® ligation module which is compatible with the Ultra II® end repair/dA-tailing module removing a clean-up step. It can be used with or without the optional FFPE DNA repair step. If you have the time I would recommend using the double incubation times in blue, if you are in a hurry the times in red are a good compromise between speed and efficiency.
 
