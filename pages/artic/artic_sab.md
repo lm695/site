@@ -20,7 +20,7 @@ Jennifer Gardy
 : University of British Columbia
 : British Columbia Centre for Disease Control
 
-Amadou Salle
+Amadou Sall
 : Institut Pasteur de Dakar, Senegal
 
 Caroline Colijn
