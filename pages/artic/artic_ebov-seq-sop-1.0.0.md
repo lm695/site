@@ -91,7 +91,8 @@ DNAway and RNAse Zap® reagent
 
 
 ## cDNA synthesis with Superscript IV Vilo cDNA kit
-**NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the SAMPLE PREPARATION HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations. 
+
+> **NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the SAMPLE PREPARATION HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations. 
 
 1. Recommend aliquoting the Vilo mastermix, to prevent cross contamination and to reduce potential freeze/thaw cycles.
 2. Set up the following reaction:
@@ -114,7 +115,8 @@ DNAway and RNAse Zap® reagent
 5. cDNA is now ready for amplicon generation.
 
 ## Ebola Amplicon Preparation
-**NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the MASTERMIX HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations.
+
+> **NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the MASTERMIX HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations.
 
 1. Primer dilution and preparation
 
@@ -137,7 +139,7 @@ DNAway and RNAse Zap® reagent
       |Water |7.5L |7.5L |
       |TOTAL |25L |25L |
       
-      *NOTE:  THIS SHOULD BE CARRIED OUT IN THE MASTERMIX HOOD AND cDNA SHOULD NOT BE TAKEN ANYWHERE NEAR THE MASTERMIX HOOD AT ANY STAGE.
+      > **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
 
 
 
@@ -157,36 +159,36 @@ DNAway and RNAse Zap® reagent
    
       1. Transfer the entire contents of “Pool1” and “Pool2” to a single 1.5mL Eppendorf tube. 
       
-      2.	Mix sample gently, avoid vortexing.
-      
-      3.	Ensure AmpureXP beads are well resuspended by thoroughly mixing prior to addition to the sample. Mixture should be a homogenous brown colour. 
-      
-      4.	Add an equal volume of AmpureXP beads to the tube and mix gently. This should be approximately 50uL, so add 50uL of beads.
-      
-      5.	Incubate for 2 mins at 25oC.
-      
-      6.	Place on magnetic rack and incubate for 2 mins or until the beads have pelleted against the magnet and the solution is completely clear. 
-      
-      7.	Carefully remove and discard the solution, being careful not to displace the bead pellet. 
-      
-      8.	Add 200uL of 70% ethanol to the pellet. 
-      
-      9.	Remove from magnet and mix by gently flicking the tube. 
-      
-      10.	Pulse centrifuge the tube to make sure all the mixture is out of the lid following flicking, then place back onto the magnet. 
-      
-      11.	Incubate for 2 mins or until the beads have pelleted against the magnet and the solution is completely clear. 
-      
-      12.	Carefully remove and discard ethanol, being careful not to displace the bead pellet.
+      2. Mix sample gently, avoid vortexing.
+         
+      3. Ensure AmpureXP beads are well resuspended by thoroughly mixing prior to addition to the sample. Mixture should be a homogenous brown colour. 
+         
+      4. Add an equal volume of AmpureXP beads to the tube and mix gently. This should be approximately 50uL, so add 50uL of beads.
+         
+      5. Incubate for 2 mins at 25oC.
+         
+      6. Place on magnetic rack and incubate for 2 mins or until the beads have pelleted against the magnet and the solution is completely clear. 
+         
+      7. Carefully remove and discard the solution, being careful not to displace the bead pellet. 
+         
+      8. Add 200uL of 70% ethanol to the pellet. 
+         
+      9. Remove from magnet and mix by gently flicking the tube. 
        
-      13.	Repeat steps (h-l) to wash the pellet again. 
-      
-      14.	Briefly pulse centrifuge the pellet and carefully remove as much ethanol as possible using a 10uL tip. 
-      
-      15.	Allow the pellet to dry for 2 mins, being careful not to overdry (if the pellet is cracking, then it is too dry).
-      
-      16.	Resuspend pellet in 30uL of water, and incubate for 2 mins. 
-      
-      17.	Place on magnet and CAREFULLY remove water and transfer to a clean 1.5mL Eppendorf tube. MAKE SURE that no beads are transferred into this tube. 
-      
-      18.	Quantify the amplicon library using Qubit4® following the dsDNA protocol.
+      10. Pulse centrifuge the tube to make sure all the mixture is out of the lid following flicking, then place back onto the magnet. 
+       
+      11. Incubate for 2 mins or until the beads have pelleted against the magnet and the solution is completely clear. 
+       
+      12. Carefully remove and discard ethanol, being careful not to displace the bead pellet.
+         
+      13. Repeat steps (h-l) to wash the pellet again. 
+         
+      14. Briefly pulse centrifuge the pellet and carefully remove as much ethanol as possible using a 10uL tip. 
+         
+      15. Allow the pellet to dry for 2 mins, being careful not to overdry (if the pellet is cracking, then it is too dry).
+         
+      16. Resuspend pellet in 30uL of water, and incubate for 2 mins. 
+         
+      17. Place on magnet and CAREFULLY remove water and transfer to a clean 1.5mL Eppendorf tube. MAKE SURE that no beads are transferred into this tube. 
+         
+      18. Quantify the amplicon library using Qubit4® following the dsDNA protocol.
