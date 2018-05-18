@@ -10,22 +10,24 @@ toc: false
 folder: artic
 ---
 
+Daniel Bausch
+: Public Health England
+
 Judith Breuer
 : University College London
 
-Mike Parker
-: University of Oxford
+Caroline Colijn
+: Imperial College London
 
 Jennifer Gardy
 : University of British Columbia
 : British Columbia Centre for Disease Control
 
+Mike Parker
+: University of Oxford
+
 Amadou Sall
 : Institut Pasteur de Dakar, Senegal
-
-Caroline Colijn
-: Imperial College London
-
 
 {% include icon-callout.html
 type='default'

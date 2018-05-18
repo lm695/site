@@ -10,7 +10,7 @@
         <div id="main">
             <!-- Preamble Column -->
             <div>
-                <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" width="100" />
+                <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" />
                 <div>
                     <h1>{{ page.title_text }}</h1>
                     <p>Document: {{ page.document_name }}</p>
@@ -20,7 +20,7 @@
                     <p>Author: {{ page.author }}</p>
                 </div>
             </div>
-            <div>
+            <div style="clear: left;">
                 {{content}}
             </div>
         </div>

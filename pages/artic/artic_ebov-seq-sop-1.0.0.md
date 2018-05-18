@@ -1,5 +1,5 @@
 ---
-title: "ARTIC-EBOV-seqSOP-v1.0.0 | Ebola virus sequencing protocol | amplicon, native barcoding"
+title: "ARTIC-EBOV-seqSOP-v1.0.0 | Ebola virus Nanopore sequencing protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document_print
 last_updated: May 18, 2018
@@ -8,7 +8,7 @@ summary:
 sidebar: artic_sidebar
 permalink: ebov-seq-sop-1.0.0.html
 folder: artic
-title_text: "Ebola virus sequencing protocol: amplicon, native barcoding"
+title_text: "Ebola virus sequencing protocol:<br/>Nanopore, amplicon, native barcoding"
 document_name: "ARTIC-EBOV-seqSOP-v1.0.0"
 creation_date: 2018-05-17
 revision_date: 2018-05-18
@@ -16,10 +16,14 @@ forked_from: doi:10.1038/nprot.2017.066
 author: Luke Meredith
 ---
 
-## Overview:
-The following protocol is adapted from the methods of [Quick et al. (2017) *Nature Protocols* **12:** 1261–1276 doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066) and covers primers, amplicon preparation and clean-up, then uses a single-tube protocol to barcode and adaptor ligate the library, before running minION. 
+{% include callout.html
+type='default'
+content='**Overview:** The following protocol is adapted from the methods of [Quick et al. (2017) *Nature Protocols* **12:** 1261–1276 doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066) and covers primers, amplicon preparation and clean-up, then uses a single-tube protocol to barcode and adaptor ligate the library, before running minION.'
+%}
 
-### Equipment required:
+## Preparation
+
+#### Equipment required:
 
    |---:|:---
    |2| Portable nucleic acid preparation hood or equivalent
@@ -34,7 +38,7 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    |1| Heat block
    |1| magnetic rack
 
-### Consumables required:
+#### Consumables required:
  
    |---:|:---
    || Vilo SSIV RT 2x MasterMix
@@ -60,7 +64,7 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    || Paper towelling 
    || Clinical waste sharps containers
 
-### Safety, containment and contamination recommendations
+#### Safety, containment and contamination recommendations
 
    |---:|:---
    || Back-tie hydrophobic lab gown
@@ -69,9 +73,11 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    || MediPal Decontamination wipes
    || DNAway and RNAse Zap® reagent
 
+<div class="pagebreak"> </div>
+
 ## Protocol
 
-### cDNA synthesis with Superscript IV Vilo cDNA kit
+### Part 1: cDNA synthesis with Superscript IV Vilo cDNA kit
 
 > **NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the SAMPLE PREPARATION HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations. 
 
@@ -95,7 +101,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    
 5. cDNA is now ready for amplicon generation.
 
-### Ebola Amplicon Preparation
+<div class="pagebreak"> </div>
+
+### Part 2: Ebola Amplicon Preparation
 
 > **NOTE ON HOOD PREPARATION:** To prevent cross contamination of both the sample and other reagents, this should be carried out in the MASTERMIX HOOD, which is pre-sterilised with UV and treated with MediPal wipes, DNAway and RNAseZap reagent. Wipe down the hood with each sequentially, allowing 5 minutes for drying between each. Pipettes should also be treated in the same way, and UV treated for 30 mins between library preparations.
 
@@ -110,6 +118,8 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 4. Generate primer pool stocks by adding 20&micro;L of each primer pair to a 1.5mL Eppendorf labelled “Pool 1, 100&micro;M” or “Pool 2, 100&micro;M”. Total volume should be 460&micro;L of each pool. This is a 10x stock of each primer pool. 
 
 5. Dilute this primer pool 1:10 in molecular grade water, to generate 10&micro;M primer stocks. Recommend that at least 1mL of each primer pool is taken in 100&micro;L aliquots, to account for any risks of degradation of contamination. 
+
+<div class="pagebreak"> </div>
 
    | NAME         | Sequence                       | NAME          | Sequence               | Pool | [Stock] |
    |-------------:|--------------------------------|--------------:|------------------------|------|---------|
@@ -204,7 +214,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
       
     19. Quantify the amplicon library using Qubit4&trade; following the dsDNA protocol.
     
-### Qubit Quantification of Nucleic Acid: dsDNA
+<div class="pagebreak"> </div>
+
+### Part 3: Qubit Quantification of Nucleic Acid: dsDNA
 
 1. Set up the required number of 0.5mL tubes for standards and samples. The Qubit&trade; 1X dsDNA HS Assay requires 2 standards. 
    > **NOTE:** Use only thin-wall, clear, 0.5mL PCR tubes. Acceptable tubes include Qubit&trade; assay tubes (Cat. No. Q32856) 
@@ -239,9 +251,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 13. On the assay screen, select the sample volume and units: 
 
-    > a) Press the `+` or `–` buttons on the wheel, or anywhere on the wheel itself, to select the sample volume added to the assay tube (from 1–20&micro;L). 
+    > Press the `+` or `–` buttons on the wheel, or anywhere on the wheel itself, to select the sample volume added to the assay tube (from 1–20&micro;L). 
     >
-    > b) From the unit dropdown menu, select the units for the output sample concentration. 
+    > From the unit dropdown menu, select the units for the output sample concentration. 
 
 14. Insert a sample tube into the sample chamber, close the lid, then press `Read tube`. When the reading is complete (~3 seconds), remove the sample tube. 
 
@@ -251,7 +263,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 17. Carefully **record all results** and store run file from the Qubit on a memory stick. 
 
-### Barocoding and adaptor ligation: One-pot protocol.
+<div class="pagebreak"> </div>
+
+### Part 4: Barocoding and adaptor ligation: One-pot protocol.
  
 > **NOTE:** This is a ‘one-pot ligation’ protocol for native barcoded ligation libraries. We have seen no reduction in performance compared to standard libraries, and is made faster by using the Ultra II® ligation module which is compatible with the Ultra II® end repair/dA-tailing module removing a clean-up step. It can be used with or without the optional FFPE DNA repair step. If you have the time I would recommend using the double incubation times in <span style="color:blue">blue</span>, if you are in a hurry the times in <span style="color:red">red</span> are a good compromise between speed and efficiency.
 
@@ -360,7 +374,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
     > **NOTE:** Library can be now be stored at -20oC if required, but for best results it would be best to proceed immediately to sequencing. 
 
-### Priming and loading the SpotON flow cell 
+<div class="pagebreak"> </div>
+
+### Part 5: Priming and loading the SpotON flow cell 
 
 1. Thaw the following:
    - ABB Buffer (ABB) at RT 
@@ -413,9 +429,9 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 17. Choose the flow cell type from the selector box:
  
-   > R9.4.1 flowcells are `FLO-MIN106`
-   >
-   > R9.5.1 flowcells are `FLO-MIN107`
+    - `FLO-MIN106` : R9.4.1 flowcells
+   
+    - `FLO-MIN107` : R9.5.1 flowcells
 
 18. Then mark the flow cell as `Selected`. 
 
@@ -423,9 +439,11 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 20. On the New experiment popup screen, select the running parameters for your experiment from the individual tabs:
    
-   > Output settings - FASTQ: The number of basecalls that MinKNOW will write in a single file. By default this is set to 4000
-   >
-   > Output settings - FAST5: The number of files that MinKNOW will write to a single folder. By default this is set to 4000
+    - `Output settings - FASTQ`
+    : The number of basecalls that MinKNOW will write in a single file. By default this is set to 4000
+    
+    - `Output settings - FAST5`
+    : The number of files that MinKNOW will write to a single folder. By default this is set to 4000
    
 21. Click `Begin Experiment`.
 
