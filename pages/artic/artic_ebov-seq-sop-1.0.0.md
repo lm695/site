@@ -1,7 +1,6 @@
 ---
 title: ARTIC-EBOV-seqSOP-v1.0.0 Ebola Sequencing, Amplicon, native barcoding
 keywords: protocol
-css: protocol
 layout: document
 last_updated: May 17, 2018
 tags: [protocol]
@@ -10,7 +9,6 @@ sidebar: artic_sidebar
 permalink: ebov-seq-sop-1.0.0.html
 toc: true
 folder: artic
-pdf: true
 ---
 
 # Ebola virus sequencing protocol: amplicon, native barcoding
