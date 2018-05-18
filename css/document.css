@@ -1,5 +1,5 @@
 :root {
-    --body-font-size: 11pt;
+    --body-font-size: 12pt;
     --h1-font-size: 32pt;
     --h2-font-size: 18pt;
     --h3-font-size: 12pt;
@@ -15,6 +15,10 @@
         color: black;
         background-color: white;
         margin: auto;
+    }
+
+    .pagebreak {
+        page-break-before: always;
     }
 }
 

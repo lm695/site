@@ -84,21 +84,21 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 1. Recommend aliquoting the Vilo mastermix, to prevent cross contamination and to reduce potential freeze/thaw cycles.
 2. Set up the following reaction:
 
-   |---|--- 
-   |2x Vilo Master Mix | 5&micro;L   
-   |viral RNA | 5&micro;L   
-   |TOTAL | 10&micro;L
-   
+    |---|--- 
+    |2x Vilo Master Mix | 5&micro;L   
+    |viral RNA | 5&micro;L   
+    |TOTAL | 10&micro;L
+    
 > **NOTE:** Viral RNA input from a clinical sample should be between Ct 18-35. If Ct is between 12-15, then dilute the sample 100-fold in water, if between 15-18 then dilute 10-fold in water. This will reduce the likelihood of PCR-inhibition. 
    
 3. Gently mix (avoid vortexing) then pulse spin the tube to ensure maximum contact with the thermal cycler.
 4. Incubate the reaction as follows:
 
-   |---|---|--- 
-   | Primer annealing | 25&deg;C | 20 mins   
-   | Extension | 50&deg;C | 30 mins   
-   | Inactivation | 85&deg;C | 10 mins
-   
+    |---|---|--- 
+    | Primer annealing | 25&deg;C | 20 mins   
+    | Extension | 50&deg;C | 30 mins   
+    | Inactivation | 85&deg;C | 10 mins
+    
 5. cDNA is now ready for amplicon generation.
 
 <div class="pagebreak"> </div>
@@ -109,7 +109,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 #### Primer dilution and preparation
 
-1. Ebola primers for this protocol were designed using Primal and generate a 400nt amplicon with a 75nt overlap. Primer names and dilutions are listed in the table below. 
+1. Ebola primers for this protocol were designed using [Primal Scheme](http://primal.zibraproject.org) and generate 400nt amplicons with 75nt overlaps. Primer names and dilutions are listed in the table below. 
 
 2. Primers should be prepped and aliquoted PRIOR TO DEPARTURE in a STERILE PCR CABINET. At NO stage should primers or PCR reagents be anywhere near the template or amplicons until use. 
 
@@ -121,44 +121,44 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 <div class="pagebreak"> </div>
 
-   | NAME         | Sequence                       | NAME          | Sequence               | Pool | [Stock] |
-   |-------------:|--------------------------------|--------------:|------------------------|------|---------|
-   | Ebov_1_LEFT  | TCTTTTGTGTGCGAATAACTATGAGGA    | Ebov_1_RIGHT  | TGTGTCCTACTGATTGCCAAGC | 1    | 100&micro;M   |
-   | Ebov_2_LEFT  | CCGGTCAGTTTCTCTCCTTTGC         | Ebov_2_RIGHT  | ACTCTGGTATTCGCCGTAGCTT | 2    | 100&micro;M   |
-   | Ebov_3_LEFT  | CGATGATGATGACGACATTCCCT        | Ebov_3_RIGHT  | TCATCCCATTGTTCCATGCTCA | 1    | 100&micro;M   |
-   | Ebov_4_LEFT  | TCCACCATGGCTCACTGAAAAA         | Ebov_4_RIGHT  | GACCGGTTGTCATCACCAGAAG | 2    | 100&micro;M   |
-   | Ebov_5_LEFT  | GCAACAACAAACCATCGCATCA         | Ebov_5_RIGHT  | AAAACACTCTCTCAGCCGAGGT | 1    | 100&micro;M   |
-   | Ebov_6_LEFT  | CGACCAAGATAAAATTGTTCATATCTCGC  | Ebov_6_RIGHT  | TTCTTACCGGTCAGCTTGTGGA | 2    | 100&micro;M   |
-   | Ebov_7_LEFT  | AAGGGGAACAGTGCCGATCTAA         | Ebov_7_RIGHT  | TCCTGTAACGCCCATTGTGTTG | 1    | 100&micro;M   |
-   | Ebov_8_LEFT  | GGCGATGAAGATTAAGCCGACA         | Ebov_8_RIGHT  | TGTCTCATTCAGCTGGAGCAGA | 2    | 100&micro;M   |
-   | Ebov_9_LEFT  | AGGACCCGTCTAGTGGCTACTA         | Ebov_9_RIGHT  | TGCAGCACCTTCATCCTGAGTA | 1    | 100&micro;M   |
-   | Ebov_10_LEFT | ATACCGGAGAAGAGAGTGCCAG         | Ebov_10_RIGHT | ACTCTACCGGTTCGCAGATCTG | 2    | 100&micro;M   |
-   | Ebov_11_LEFT | ACAAGGTTTGACATCAATCTAGTTATCTCT | Ebov_11_RIGHT | AACCCTGAAACAACGACAGCAG | 1    | 100&micro;M   |
-   | Ebov_12_LEFT | TCAACGATTACACAGTGATAAAGGAGG    | Ebov_12_RIGHT | CTTTTGTGGCGTATCTCAGGGG | 2    | 100&micro;M   |
-   | Ebov_13_LEFT | TGCGGAGGTCTGATAAGAATAAACC      | Ebov_13_RIGHT | TGGATCGAATCAACGACAGCAT | 1    | 100&micro;M   |
-   | Ebov_14_LEFT | GGACCAGCTGATTGACCAGTCT         | Ebov_14_RIGHT | CCGCAAGCTCTAGTGACTAGGT | 2    | 100&micro;M   |
-   | Ebov_15_LEFT | CTGCTTATTGGGTCTTTCCGTGT        | Ebov_15_RIGHT | CCAAGCACAATGGTTCGAGGAA | 1    | 100&micro;M   |
-   | Ebov_16_LEFT | CTCAAAAATAGCAGAGATTGAGGATCCA   | Ebov_16_RIGHT | AACATTGCGAGTCGGATAAGGC | 2    | 100&micro;M   |
-   | Ebov_17_LEFT | AGAGCAAGAAAACTTTTCTATTGAGAATGT | Ebov_17_RIGHT | AATGGTGCCATTCTTGTAGCCG | 1    | 100&micro;M   |
-   | Ebov_18_LEFT | CGCCAGCCTAGCAAAAGTTACA         | Ebov_18_RIGHT | CTCAGTCTGTCCAAAACCGGTG | 2    | 100&micro;M   |
-   | Ebov_19_LEFT | CCTGTTATGAGTCGTTTTGCGG         | Ebov_19_RIGHT | TCCCGGGTGCAACACTTAGTTA | 1    | 100&micro;M   |
-   | Ebov_20_LEFT | AGTTTTCAGGAGGTGGCCAGTC         | Ebov_20_RIGHT | TGCATGGAAGAAATTGCTGGCT | 2    | 100&micro;M   |
-   | Ebov_21_LEFT | AACCCAACACCTGTGAATAATTTTCTC    | Ebov_21_RIGHT | AGGTAGCCTTGCTCTTTGGTCT | 1    | 100&micro;M   |
-   | Ebov_22_LEFT | AGTATCAGGAATGACTACTCCTAGGATG   | Ebov_22_RIGHT | TCAGAAGCCCTGTCAGCCTTTC | 2    | 100&micro;M   |
-   | Ebov_23_LEFT | AGGACGAATCACAAAACTAGTCAATGA    | Ebov_23_RIGHT | TGTGTGCGACCATTTTTCCAGG | 1    | 100&micro;M   |
+   | NAME         | Sequence                         | NAME          | Sequence                 | Pool | [Stock] |
+   |-------------:|----------------------------------|--------------:|--------------------------|------|---------|
+   | Ebov_1_LEFT  | `TCTTTTGTGTGCGAATAACTATGAGGA`    | Ebov_1_RIGHT  | `TGTGTCCTACTGATTGCCAAGC` | 1    | 100&micro;M   |
+   | Ebov_2_LEFT  | `CCGGTCAGTTTCTCTCCTTTGC`         | Ebov_2_RIGHT  | `ACTCTGGTATTCGCCGTAGCTT` | 2    | 100&micro;M   |
+   | Ebov_3_LEFT  | `CGATGATGATGACGACATTCCCT`        | Ebov_3_RIGHT  | `TCATCCCATTGTTCCATGCTCA` | 1    | 100&micro;M   |
+   | Ebov_4_LEFT  | `TCCACCATGGCTCACTGAAAAA`         | Ebov_4_RIGHT  | `GACCGGTTGTCATCACCAGAAG` | 2    | 100&micro;M   |
+   | Ebov_5_LEFT  | `GCAACAACAAACCATCGCATCA`         | Ebov_5_RIGHT  | `AAAACACTCTCTCAGCCGAGGT` | 1    | 100&micro;M   |
+   | Ebov_6_LEFT  | `CGACCAAGATAAAATTGTTCATATCTCGC`  | Ebov_6_RIGHT  | `TTCTTACCGGTCAGCTTGTGGA` | 2    | 100&micro;M   |
+   | Ebov_7_LEFT  | `AAGGGGAACAGTGCCGATCTAA`         | Ebov_7_RIGHT  | `TCCTGTAACGCCCATTGTGTTG` | 1    | 100&micro;M   |
+   | Ebov_8_LEFT  | `GGCGATGAAGATTAAGCCGACA`         | Ebov_8_RIGHT  | `TGTCTCATTCAGCTGGAGCAGA` | 2    | 100&micro;M   |
+   | Ebov_9_LEFT  | `AGGACCCGTCTAGTGGCTACTA`         | Ebov_9_RIGHT  | `TGCAGCACCTTCATCCTGAGTA` | 1    | 100&micro;M   |
+   | Ebov_10_LEFT | `ATACCGGAGAAGAGAGTGCCAG`         | Ebov_10_RIGHT | `ACTCTACCGGTTCGCAGATCTG` | 2    | 100&micro;M   |
+   | Ebov_11_LEFT | `ACAAGGTTTGACATCAATCTAGTTATCTCT` | Ebov_11_RIGHT | `AACCCTGAAACAACGACAGCAG` | 1    | 100&micro;M   |
+   | Ebov_12_LEFT | `TCAACGATTACACAGTGATAAAGGAGG`    | Ebov_12_RIGHT | `CTTTTGTGGCGTATCTCAGGGG` | 2    | 100&micro;M   |
+   | Ebov_13_LEFT | `TGCGGAGGTCTGATAAGAATAAACC`      | Ebov_13_RIGHT | `TGGATCGAATCAACGACAGCAT` | 1    | 100&micro;M   |
+   | Ebov_14_LEFT | `GGACCAGCTGATTGACCAGTCT`         | Ebov_14_RIGHT | `CCGCAAGCTCTAGTGACTAGGT` | 2    | 100&micro;M   |
+   | Ebov_15_LEFT | `CTGCTTATTGGGTCTTTCCGTGT`        | Ebov_15_RIGHT | `CCAAGCACAATGGTTCGAGGAA` | 1    | 100&micro;M   |
+   | Ebov_16_LEFT | `CTCAAAAATAGCAGAGATTGAGGATCCA`   | Ebov_16_RIGHT | `AACATTGCGAGTCGGATAAGGC` | 2    | 100&micro;M   |
+   | Ebov_17_LEFT | `AGAGCAAGAAAACTTTTCTATTGAGAATGT` | Ebov_17_RIGHT | `AATGGTGCCATTCTTGTAGCCG` | 1    | 100&micro;M   |
+   | Ebov_18_LEFT | `CGCCAGCCTAGCAAAAGTTACA`         | Ebov_18_RIGHT | `CTCAGTCTGTCCAAAACCGGTG` | 2    | 100&micro;M   |
+   | Ebov_19_LEFT | `CCTGTTATGAGTCGTTTTGCGG`         | Ebov_19_RIGHT | `TCCCGGGTGCAACACTTAGTTA` | 1    | 100&micro;M   |
+   | Ebov_20_LEFT | `AGTTTTCAGGAGGTGGCCAGTC`         | Ebov_20_RIGHT | `TGCATGGAAGAAATTGCTGGCT` | 2    | 100&micro;M   |
+   | Ebov_21_LEFT | `AACCCAACACCTGTGAATAATTTTCTC`    | Ebov_21_RIGHT | `AGGTAGCCTTGCTCTTTGGTCT` | 1    | 100&micro;M   |
+   | Ebov_22_LEFT | `AGTATCAGGAATGACTACTCCTAGGATG`   | Ebov_22_RIGHT | `TCAGAAGCCCTGTCAGCCTTTC` | 2    | 100&micro;M   |
+   | Ebov_23_LEFT | `AGGACGAATCACAAAACTAGTCAATGA`    | Ebov_23_RIGHT | `TGTGTGCGACCATTTTTCCAGG` | 1    | 100&micro;M   |
 
 > **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, each pool has 23 primers in it, so the requirement is 0.8625&micro;L of 10&micro;M primer pool per 25&micro;L reaction. For other schemes, adjust the volume added appropriately. 
 
 6. Set up the amplicon PCR reactions as follows in 0.5mL thin-walled PCR or strip-tubes:
 
-   |Reagent |POOL 1 |POOL 2 |
-   |--------|-------|-------|
-   |NEB Q5® Polymerase 2X MasterMix |12.5&micro;L |12.5&micro;L |
-   |Primer Pool 1 or 2 (10&micro;M) |0.9&micro;L |0.9&micro;L |
-   |Water |7.5&micro;L |7.5&micro;L |
-   |TOTAL |20.9&micro;L |20.9&micro;L |
-
-> **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
+    |Reagent |POOL 1 |POOL 2 |
+    |--------|-------|-------|
+    |NEB Q5® Polymerase 2X MasterMix |12.5&micro;L |12.5&micro;L |
+    |Primer Pool 1 or 2 (10&micro;M) |0.9&micro;L |0.9&micro;L |
+    |Water |7.5&micro;L |7.5&micro;L |
+    |TOTAL |20.9&micro;L |20.9&micro;L |
+    
+    > **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
 
 7. In the TEMPLATE HOOD add 4.1&micro;L of cDNA to each Pool1 and Pool2 reaction mix and mix well.
 
@@ -166,13 +166,13 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 9. Set up the cycling conditions as follows:
 
-   |                |Temperature |Time        |Cycles |
-   |----------------|------------|------------|-------| 
-   |Heat Activation |98&deg;C        |30 seconds  |1      |
-   |Denaturation    |98&deg;C        |15 seconds  |35     |
-   |Annealing       |60&deg;C        |30 seconds  |35     |
-   |Extension       |72&deg;C        |120 seconds |35     |
-   |Hold            |4&deg;C         |Indefinite  |1      |				
+    |                |Temperature |Time        |Cycles |
+    |----------------|------------|------------|-------| 
+    |Heat Activation |98&deg;C        |30 seconds  |1      |
+    |Denaturation    |98&deg;C        |15 seconds  |35     |
+    |Annealing       |60&deg;C        |30 seconds  |35     |
+    |Extension       |72&deg;C        |120 seconds |35     |
+    |Hold            |4&deg;C         |Indefinite  |1      |				
 
 10. Clean-up the amplicons using the following protocol in the TEMPLATE HOOD:
   
@@ -241,6 +241,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 7. Allow all tubes to incubate at room temperature for 2 minutes, then proceed to “Read standards and samples”. 
 
 8. On the Home screen of the Qubit&trade; 4 Fluorometer, press DNA, then select `1X dsDNA HS` as the assay type. The `Read standards` screen is displayed. Press `Read Standards` to proceed. 
+
 > **NOTE:** If you have already performed a calibration for the selected assay, the instrument prompts you to choose between reading new standards and running samples using the previous calibration. **If you want to use the previous calibration, skip to step 11**. Otherwise, continue with step 9. 
 
 9. Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1. 
@@ -277,11 +278,11 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
     | Ultra II End Prep Reaction Buffer | 3.5&micro;L
     | Ultra II End Prep Enzyme Mix | 1.5&micro;L
     | Total | 30&micro;L
-   
-> **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
-
+    
+    > **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
+    
     Or, if DNA samples are lower Ct or have been extracted from difficult samples (fecal matter, saliva), include FFPE DNA Repair reagents into the reaction. These do not affect the efficiency of the reaction:
-
+    
     |DNA (500 ng) | 24&micro;L
     |Ultra II End Prep Reaction Buffer | 1.75&micro;L
     |FFPE DNA Repair Buffer | 1.75&micro;L
@@ -300,7 +301,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
     | Ligation Enhancer | 1&micro;L
     | Total | 53.5&micro;L
    
-> **NOTE:** Use a SINGLE barcode per biological sample. 
+    > **NOTE:** Use a SINGLE barcode per biological sample. 
 
 5. Incubate at RT for <span style="color:red">10 mins</span> or <span style="color:blue">20 mins</span>, 70&deg;C for 5 mins then place on ice.
 
