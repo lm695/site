@@ -167,8 +167,8 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    |----------------|------------|------------|-------| 
    |Heat Activation |98&deg;C        |30 seconds  |1      |
    |Denaturation    |98&deg;C        |15 seconds  |35     |
-   |Annealing       |60&deg;C        |30 seconds  |1      |
-   |Extension       |72&deg;C        |120 seconds |1      |
+   |Annealing       |60&deg;C        |30 seconds  |35     |
+   |Extension       |72&deg;C        |120 seconds |35     |
    |Hold            |4&deg;C         |Indefinite  |1      |				
 
 10. Clean-up the amplicons using the following protocol in the TEMPLATE HOOD:
