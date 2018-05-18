@@ -9,7 +9,7 @@ div #main {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 500;
 
-    max-width: 900px;
+    /* max-width: 900px; */
     font-size: var(--body-font-size);
     color: black;
     background-color: white;
