@@ -1,7 +1,7 @@
 ---
 title: "ARTIC-EBOV-seqSOP-v1.0.0 | Ebola virus Nanopore sequencing protocol | amplicon, native barcoding"
 keywords: protocol
-layout: document_print
+layout: document
 last_updated: May 18, 2018
 tags: [protocol]
 summary:
@@ -89,7 +89,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
    |viral RNA | 5&micro;L   
    |TOTAL | 10&micro;L
    
-   > **NOTE:** Viral RNA input from a clinical sample should be between Ct 18-35. If Ct is between 12-15, then dilute the sample 100-fold in water, if between 15-18 then dilute 10-fold in water. This will reduce the likelihood of PCR-inhibition. 
+> **NOTE:** Viral RNA input from a clinical sample should be between Ct 18-35. If Ct is between 12-15, then dilute the sample 100-fold in water, if between 15-18 then dilute 10-fold in water. This will reduce the likelihood of PCR-inhibition. 
    
 3. Gently mix (avoid vortexing) then pulse spin the tube to ensure maximum contact with the thermal cycler.
 4. Incubate the reaction as follows:
@@ -147,7 +147,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
    | Ebov_22_LEFT | AGTATCAGGAATGACTACTCCTAGGATG   | Ebov_22_RIGHT | TCAGAAGCCCTGTCAGCCTTTC | 2    | 100&micro;M   |
    | Ebov_23_LEFT | AGGACGAATCACAAAACTAGTCAATGA    | Ebov_23_RIGHT | TGTGTGCGACCATTTTTCCAGG | 1    | 100&micro;M   |
 
-   > **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, each pool has 23 primers in it, so the requirement is 0.8625&micro;L of 10&micro;M primer pool per 25&micro;L reaction. For other schemes, adjust the volume added appropriately. 
+> **NOTE:** Primers need to be used at a final concentration of 0.015&micro;M per primer. In this case, each pool has 23 primers in it, so the requirement is 0.8625&micro;L of 10&micro;M primer pool per 25&micro;L reaction. For other schemes, adjust the volume added appropriately. 
 
 6. Set up the amplicon PCR reactions as follows in 0.5mL thin-walled PCR or strip-tubes:
 
@@ -158,7 +158,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
    |Water |7.5&micro;L |7.5&micro;L |
    |TOTAL |20.9&micro;L |20.9&micro;L |
 
-   > **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
+> **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
 
 7. In the TEMPLATE HOOD add 4.1&micro;L of cDNA to each Pool1 and Pool2 reaction mix and mix well.
 
@@ -219,27 +219,29 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 ### Part 3: Qubit Quantification of Nucleic Acid: dsDNA
 
 1. Set up the required number of 0.5mL tubes for standards and samples. The Qubit&trade; 1X dsDNA HS Assay requires 2 standards. 
-   > **NOTE:** Use only thin-wall, clear, 0.5mL PCR tubes. Acceptable tubes include Qubit&trade; assay tubes (Cat. No. Q32856) 
+
+> **NOTE:** Use only thin-wall, clear, 0.5mL PCR tubes. Acceptable tubes include Qubit&trade; assay tubes (Cat. No. Q32856) 
    
 2. Label the tube lids. Do not label the side of the tube as this could interfere with the sample read. Label the lid of each standard tube correctly. Calibration of the Qubit&trade; Fluorometer requires the standards to be inserted into the instrument in the right order
 
 3. Add 10&micro;L of each Qubit&trade; standard to the appropriate tube. 
 
 4. Add 1–20&micro;L of each user sample to the appropriate tube. 
-   > **NOTE:**  If you are adding 1–2&micro;L of sample, use a P-2 pipette for best results.  
+
+> **NOTE:**  If you are adding 1–2&micro;L of sample, use a P-2 pipette for best results.  
 
 5. Add the Qubit&trade; 1X dsDNA 1X buffer to each tube such that the final volume is 200&micro;L. 
    
-   > **NOTE:**  The final volume in each tube must be 200&micro;L. Each standard tube requires 190&micro;L of Qubit&trade; working solution, and each sample tube requires anywhere from 180–199&micro;L. Ensure that you have sufficient Qubit&trade; working solution to accommodate all standards and samples. 
+> **NOTE:**  The final volume in each tube must be 200&micro;L. Each standard tube requires 190&micro;L of Qubit&trade; working solution, and each sample tube requires anywhere from 180–199&micro;L. Ensure that you have sufficient Qubit&trade; working solution to accommodate all standards and samples. 
    
-   > **NOTE:**  To avoid any cross-contamination, we recommend that you remove the total amount of working solution required for your samples and standards from the working solution bottle and then add the required volume to the appropriate tubes instead of pipetting directly from the bottle to each tube. 
+> **NOTE:**  To avoid any cross-contamination, we recommend that you remove the total amount of working solution required for your samples and standards from the working solution bottle and then add the required volume to the appropriate tubes instead of pipetting directly from the bottle to each tube. 
 
 6. Mix each sample vigorously by vortexing for 3–5 seconds. 
 
 7. Allow all tubes to incubate at room temperature for 2 minutes, then proceed to “Read standards and samples”. 
 
 8. On the Home screen of the Qubit&trade; 4 Fluorometer, press DNA, then select `1X dsDNA HS` as the assay type. The `Read standards` screen is displayed. Press `Read Standards` to proceed. 
-   > **NOTE:** If you have already performed a calibration for the selected assay, the instrument prompts you to choose between reading new standards and running samples using the previous calibration. **If you want to use the previous calibration, skip to step 11**. Otherwise, continue with step 9. 
+> **NOTE:** If you have already performed a calibration for the selected assay, the instrument prompts you to choose between reading new standards and running samples using the previous calibration. **If you want to use the previous calibration, skip to step 11**. Otherwise, continue with step 9. 
 
 9. Insert the tube containing Standard #1 into the sample chamber, close the lid, then press Read standard. When the reading is complete (~3 seconds), remove Standard #1. 
 
@@ -271,21 +273,21 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 1. Set up either the following end-prep reaction for each biological sample:
 
-   | DNA (500 ng) | 25&micro;L
-   | Ultra II End Prep Reaction Buffer | 3.5&micro;L
-   | Ultra II End Prep Enzyme Mix | 1.5&micro;L
-   | Total | 30&micro;L
+    | DNA (500 ng) | 25&micro;L
+    | Ultra II End Prep Reaction Buffer | 3.5&micro;L
+    | Ultra II End Prep Enzyme Mix | 1.5&micro;L
+    | Total | 30&micro;L
    
-   > **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
+> **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
 
-   Or, if DNA samples are lower Ct or have been extracted from difficult samples (fecal matter, saliva), include FFPE DNA Repair reagents into the reaction. These do not affect the efficiency of the reaction:
+    Or, if DNA samples are lower Ct or have been extracted from difficult samples (fecal matter, saliva), include FFPE DNA Repair reagents into the reaction. These do not affect the efficiency of the reaction:
 
-   |DNA (500 ng) | 24&micro;L
-   |Ultra II End Prep Reaction Buffer | 1.75&micro;L
-   |FFPE DNA Repair Buffer | 1.75&micro;L
-   |Ultra II End Prep Enzyme Mix | 1.5&micro;L
-   |FFPE DNA Repair Mix | 1&micro;L
-   |Total | 30&micro;L
+    |DNA (500 ng) | 24&micro;L
+    |Ultra II End Prep Reaction Buffer | 1.75&micro;L
+    |FFPE DNA Repair Buffer | 1.75&micro;L
+    |Ultra II End Prep Enzyme Mix | 1.5&micro;L
+    |FFPE DNA Repair Mix | 1&micro;L
+    |Total | 30&micro;L
 
 2. Incubate at RT for <span style="color:red">5 mins</span> or <span style="color:blue">10 mins</span> then 65&deg;C for <span style="color:red">5 mins</span> or <span style="color:blue">10 mins</span>
 
@@ -293,12 +295,12 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 4. Add the following directly to the previous reactions:
 
-   | NBXX barcode | 2.5&micro;L
-   | Ultra II Ligation Master Mix | 20&micro;L 
-   | Ligation Enhancer | 1&micro;L
-   | Total | 53.5&micro;L
+    | NBXX barcode | 2.5&micro;L
+    | Ultra II Ligation Master Mix | 20&micro;L 
+    | Ligation Enhancer | 1&micro;L
+    | Total | 53.5&micro;L
    
-   > **NOTE:** Use a SINGLE barcode per biological sample. 
+> **NOTE:** Use a SINGLE barcode per biological sample. 
 
 5. Incubate at RT for <span style="color:red">10 mins</span> or <span style="color:blue">20 mins</span>, 70&deg;C for 5 mins then place on ice.
 
@@ -352,7 +354,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 27. Add 150&micro;L ABB and resuspend by flicking 
 
-    > **CAUTION:** do not use 80% ethanol
+> **CAUTION:** do not use 80% ethanol
 
 28. Place on magnetic rack until clear
 
@@ -372,7 +374,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 36. Remove 1&micro;L and assess concentration by Qubit (wait until beads have settled before measuring).
 
-    > **NOTE:** Library can be now be stored at -20oC if required, but for best results it would be best to proceed immediately to sequencing. 
+> **NOTE:** Library can be now be stored at -20oC if required, but for best results it would be best to proceed immediately to sequencing. 
 
 <div class="pagebreak"> </div>
 
@@ -387,7 +389,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 3. Flip back the MinION lid and slide the priming port cover clockwise so that the priming port is visible.
 
-    > **IMPORTANT:** Care must be taken when drawing back buffer from the flow cell. The array of pores must be covered by buffer at all times. Removing more than 20-30&micro;L risks damaging the pores in the array.
+> **IMPORTANT:** Care must be taken when drawing back buffer from the flow cell. The array of pores must be covered by buffer at all times. Removing more than 20-30&micro;L risks damaging the pores in the array.
 
 5. After opening the priming port, check for small bubble under the cover. Draw back a small volume to remove any bubble (a few&micro;Ls):   
    - Set a P1000 pipette to 200&micro;L   
@@ -396,8 +398,8 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
     
 6. Prepare the flow cell priming mix in a clean 1.5 ml Eppendorf tube. Avoid introducing bubbles at this stage to ease the next step. 
 
-   | RBF | 576&micro;L 
-   | Nuclease-free water | 624&micro;L 
+    | RBF | 576&micro;L 
+    | Nuclease-free water | 624&micro;L 
    
 7. Load 800&micro;L of the priming mix into the flow cell via the priming port, using the dial-down method described in step 5, avoiding the introduction of air bubbles. 
 
@@ -405,13 +407,13 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 9. In a new tube prepare the library dilution for sequencing:
 
-   | Reagent | Volume
-   |---|--- 
-   | RBF | 35&micro;L
-   | Nuclease-free water | 3.5&micro;L
-   | LLB | 25.5&micro;L
-   | Library | 11&micro;L
-   | Total | 75&micro;L 
+    | Reagent | Volume
+    |---|--- 
+    | RBF | 35&micro;L
+    | Nuclease-free water | 3.5&micro;L
+    | LLB | 25.5&micro;L
+    | Library | 11&micro;L
+    | Total | 75&micro;L 
 
 10. Gently lift the SpotON sample port cover to make the SpotON sample port accessible.
 
