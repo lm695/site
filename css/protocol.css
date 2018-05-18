@@ -1,0 +1,24 @@
+:root {
+    --body-font-size: 11pt;
+    --h1-font-size: 18pt;
+    --h2-font-size: 14pt;
+    --h3-font-size: 12pt;
+}
+
+div #main {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+
+    max-width: 900px;
+    font-size: var(--body-font-size);
+    color: black;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+blockquote {
+    font-size: var(--body-font-size);
+}

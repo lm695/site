@@ -16,6 +16,10 @@
 <!-- most color styles are extracted out to here -->
 <link rel="stylesheet" href="css/theme-artic.css">
 
+{% if page.css %}
+<link rel="stylesheet" href="css/{{page.css}}.css">
+{% endif %}
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -42,3 +46,4 @@
 <![endif]-->
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
+

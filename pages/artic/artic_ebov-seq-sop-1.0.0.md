@@ -1,6 +1,8 @@
 ---
-title: EBOV-seqSOP-v1.0.0 Ebola Sequencing, Amplicon, native barcoding
+title: ARTIC-EBOV-seqSOP-v1.0.0 Ebola Sequencing, Amplicon, native barcoding
 keywords: protocol
+css: protocol
+layout: document
 last_updated: May 17, 2018
 tags: [protocol]
 summary:
@@ -10,7 +12,13 @@ toc: true
 folder: artic
 ---
 
+# Ebola virus sequencing protocol: amplicon, native barcoding
+
+> Document: ARTIC-EBOV-seqSOP-v1.0.0
+> 
 > Date: 2018-05-17
+>
+> Forked from: [doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066)
 >
 > Author: Luke Meredith
  
@@ -267,7 +275,7 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
 
 4. Add the following directly to the previous reactions:
 
-   |NBXX barcode | 2.5 μl
+   | NBXX barcode | 2.5 μl
    | Ultra II Ligation Master Mix | 20 μl 
    | Ligation Enhancer | 1 μl
    | Total | 53.5 μl

@@ -3,6 +3,7 @@
 <head>
     {% include head.html %}
 
+    <!--
     <script>
         $(document).ready(function() {
             // Initialize navgoco with default options
@@ -51,6 +52,7 @@
             });
         });
     </script>
+    -->
 
     <!-- Fancybox -->
     <link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.min.css">
@@ -79,41 +81,29 @@
 </head>
 <body>
 <div class="page">
+    <!--
     {% if page.title_page %}
     {% include topnav_title_page.html %}
     {% else %}
     {% include topnav.html %}
     {% endif %}
+    -->
     <!-- Page Content -->
     <div class="container">
         <div id="main">
             <!-- Content Row -->
             <div class="row">
                 {% assign content_col_size = "col-md-12" %}
-                {% unless page.hide_sidebar %}
-                <!-- Sidebar Column -->
-                {% if page.title_page %}
-                <div class="col-md-3" id="tg-sb-sidebar" style="display:none">
-                    {% assign content_col_size = "col-md-12" %}
-                    {% else %}
-                    <div class="col-md-3" id="tg-sb-sidebar">
-                        {% assign content_col_size = "col-md-9" %}
-                        {% endif %}
-                        {% include sidebar.html %}
-                    </div>
-                    {% endunless %}
-
-                    <!-- Content Column -->
-                    <div class="{{content_col_size}}" id="tg-sb-content">
-                        {{content}}
-                    </div>
-                    <!-- /.row -->
+                <!-- Content Column -->
+                <div class="{{content_col_size}}" id="tg-sb-content">
+                    {{content}}
                 </div>
-                <!-- /.container -->
             </div>
-            <!-- /#main -->
+            <!-- /.row -->
         </div>
+        <!-- /#main -->
     </div>
+    <!-- /.container -->
 </div>
 </body>
 {% if site.google_analytics %}
