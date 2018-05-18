@@ -1,5 +1,5 @@
 ---
-title: ARTIC-EBOV-seqSOP-v1.0.0 Ebola Sequencing, Amplicon, native barcoding
+title: "ARTIC-EBOV-seqSOP-v1.0.0 | Ebola virus sequencing protocol | amplicon, native barcoding"
 keywords: protocol
 layout: document
 last_updated: May 18, 2018
@@ -7,20 +7,15 @@ tags: [protocol]
 summary:
 sidebar: artic_sidebar
 permalink: ebov-seq-sop-1.0.0.html
-toc: true
 folder: artic
+title_text: "Ebola virus sequencing protocol: amplicon, native barcoding"
+document_name: "ARTIC-EBOV-seqSOP-v1.0.0"
+creation_date: 2018-05-17
+revision_date: 2018-05-18
+forked_from: doi:10.1038/nprot.2017.066
+author: Luke Meredith
 ---
 
-# Ebola virus sequencing protocol: amplicon, native barcoding
-
-> Document: ARTIC-EBOV-seqSOP-v1.0.0
-> 
-> Date: 2018-05-17
->
-> Forked from: [doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066)
->
-> Author: Luke Meredith
- 
 ## Overview:
 The following protocol is adapted from the methods of [Quick et al. (2017) *Nature Protocols* **12:** 1261–1276 doi:10.1038/nprot.2017.066](http://doi.org/10.1038/nprot.2017.066) and covers primers, amplicon preparation and clean-up, then uses a single-tube protocol to barcode and adaptor ligate the library, before running minION. 
 

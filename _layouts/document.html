@@ -89,6 +89,20 @@
             <!-- Content Row -->
             <div class="row">
                 {% assign content_col_size = "col-md-12" %}
+                <!-- preamble column -->
+                <div class="{{content_col_size}}" id="tg-sb-content">
+                    <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" width="100" />
+                    <div>
+                        <h1>{{ page.title_text }}</h1>
+                        <blockquote>
+                            <p>Document: {{ page.document_name }}</p>
+                            <p>Creation Date: {{ page.creation_date }}</p>
+                            <p>Revision Date: {{ page.revision_date }}</p>
+                            <p>Forked from: {{ page.forked_from }}</p>
+                            <p>Author: {{ page.author }}</p>
+                        </blockquote>
+                    </div>
+                </div>
                 <!-- Content Column -->
                 <div class="{{content_col_size}}" id="tg-sb-content">
                     {{content}}
