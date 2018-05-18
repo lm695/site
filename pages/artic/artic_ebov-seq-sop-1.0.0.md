@@ -260,15 +260,6 @@ The following protocol is adapted from the methods of [Quick et al. (2017) *Natu
    | Ultra II End Prep Enzyme Mix | 1.5 μl
    | Total | 30 μl
 
-   Or to include FFPE DNA repair set up the following combined reaction:
-
-   |DNA (500 ng) | 24 μl
-   |Ultra II End Prep Reaction Buffer | 1.75 μl
-   |FFPE DNA Repair Buffer | 1.75 μl
-   |Ultra II End Prep Enzyme Mix | 1.5 μl
-   |FFPE DNA Repair Mix | 1 μl
-   |Total | 30 &micro;l
-
 2. Incubate at RT for 5 mins or 10 mins then 65&deg;C for 5 mins or 10 mins
 
 3. Place on ice for 30 secs
