@@ -119,6 +119,10 @@ table {
     font-size: 90%;
 }
 
+.compact {
+    padding: 10px;
+}
+
 blockquote {
     font-size: var(--body-font-size);
     padding: 20px;

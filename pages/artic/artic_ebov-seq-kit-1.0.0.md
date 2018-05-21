@@ -8,7 +8,7 @@ summary:
 sidebar: artic_sidebar
 permalink: ebov-seq-kit-1.0.0.html
 folder: artic
-title_text: "Ebola virus Nanopore sequencing kit-list:<br/>Nanopore, amplicon, native barcoding"
+title_text: "Ebola virus sequencing kit-list:<br/>Nanopore, amplicon, native barcoding"
 document_name: "ARTIC-EBOV-seqKit-v1.0.0"
 creation_date: 2018-05-21
 revision_date: 2018-05-21

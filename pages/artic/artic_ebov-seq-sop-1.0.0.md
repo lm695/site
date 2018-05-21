@@ -48,9 +48,11 @@ Ebola virus Nanopore sequencing kit-list:
    |1| miniPCR machine.
    |1| Heat block
    |1| magnetic rack
+{: .compact}
 
 #### Consumables required:
  
+
    |---:|:---
    || Vilo SSIV RT 2x MasterMix
    || Q5 Hotstart HF polymerase 2x Mastermix
@@ -74,6 +76,7 @@ Ebola virus Nanopore sequencing kit-list:
    || 0.01mL pipette tips
    || Paper towelling 
    || Clinical waste sharps containers
+{: .compact}
 
 #### Safety, containment and contamination recommendations
 
@@ -83,6 +86,7 @@ Ebola virus Nanopore sequencing kit-list:
    || UV light sterilizers
    || MediPal Decontamination wipes
    || DNAway and RNAse Zap® reagent
+{: .compact}
 
 <div class="pagebreak"> </div>
 
