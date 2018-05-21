@@ -26,7 +26,8 @@ table > tfoot > tr > td {
     vertical-align: top;
     /* border-top: 1px solid #ddd; */
 }
-table.compact {
+
+table.compact tbody > tr > td {
     line-height: 1.1;
 }
 

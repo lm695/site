@@ -119,13 +119,9 @@ table {
     font-size: 90%;
 }
 
-.compact {
-    padding: 10px;
-}
-
 blockquote {
     font-size: var(--body-font-size);
-    padding: 20px;
+    padding: 10px;
     margin: 20px 0;
     border: 1px solid var(--contrast-colour);
     border-left-width: 5px;
