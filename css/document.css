@@ -47,9 +47,9 @@
         margin: auto;
     }
 
-    #main {
-        border: solid 1px blue;
-    }
+    /*#main {*/
+        /*border: solid 1px blue;*/
+    /*}*/
     .pagebreak {
         page-break-before: always;
     }
@@ -63,7 +63,7 @@
     /*right: 0;*/
     /*display: block;*/
     position: running(header);
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 #pageheader {
@@ -74,7 +74,7 @@
     /*right: 0;*/
     /*display: block;*/
     position: running(header);
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 #pagefooter {
@@ -85,7 +85,7 @@
     /*right: 0;*/
     /*display: block;*/
     position: running(footer);
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 .custom-footer-page-number:after {
