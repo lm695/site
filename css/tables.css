@@ -11,7 +11,7 @@ th {
     text-align: left;
 }
 table {
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 20px;
 }
 
@@ -30,6 +30,7 @@ table > thead > tr > th {
     vertical-align: bottom;
     text-transform: none;
     text-align: left;
+    border-bottom: solid 1px darkgray;
 }
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,

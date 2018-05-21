@@ -158,7 +158,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
     |Water |7.5&micro;L |7.5&micro;L |
     |TOTAL |20.9&micro;L |20.9&micro;L |
     
-    > **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
+> **NOTE:** This should be carried out in the mastermix hood and cdna should not be taken anywhere near the mastermix hood at any stage.
 
 7. In the TEMPLATE HOOD add 4.1&micro;L of cDNA to each Pool1 and Pool2 reaction mix and mix well.
 
@@ -254,9 +254,9 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 13. On the assay screen, select the sample volume and units: 
 
-    > Press the `+` or `–` buttons on the wheel, or anywhere on the wheel itself, to select the sample volume added to the assay tube (from 1–20&micro;L). 
-    >
-    > From the unit dropdown menu, select the units for the output sample concentration. 
+    - Press the `+` or `–` buttons on the wheel, or anywhere on the wheel itself, to select the sample volume added to the assay tube (from 1–20&micro;L). 
+    
+    - From the unit dropdown menu, select the units for the output sample concentration. 
 
 14. Insert a sample tube into the sample chamber, close the lid, then press `Read tube`. When the reading is complete (~3 seconds), remove the sample tube. 
 
@@ -274,21 +274,20 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
 
 1. Set up either the following end-prep reaction for each biological sample:
 
-    | DNA (500 ng) | 25&micro;L
-    | Ultra II End Prep Reaction Buffer | 3.5&micro;L
-    | Ultra II End Prep Enzyme Mix | 1.5&micro;L
-    | Total | 30&micro;L
+   | DNA (500 ng) | 25&micro;L
+   | Ultra II End Prep Reaction Buffer | 3.5&micro;L
+   | Ultra II End Prep Enzyme Mix | 1.5&micro;L
+   | Total | 30&micro;L    
+> **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
     
-    > **NOTE:** Amount of RNA can vary from 250-1000ng, less than this and the coverage and depth may be sub-optimal. 
+   Or, if DNA samples are lower Ct or have been extracted from difficult samples (fecal matter, saliva), include FFPE DNA Repair reagents into the reaction. These do not affect the efficiency of the reaction:
     
-    Or, if DNA samples are lower Ct or have been extracted from difficult samples (fecal matter, saliva), include FFPE DNA Repair reagents into the reaction. These do not affect the efficiency of the reaction:
-    
-    |DNA (500 ng) | 24&micro;L
-    |Ultra II End Prep Reaction Buffer | 1.75&micro;L
-    |FFPE DNA Repair Buffer | 1.75&micro;L
-    |Ultra II End Prep Enzyme Mix | 1.5&micro;L
-    |FFPE DNA Repair Mix | 1&micro;L
-    |Total | 30&micro;L
+   |DNA (500 ng) | 24&micro;L
+   |Ultra II End Prep Reaction Buffer | 1.75&micro;L
+   |FFPE DNA Repair Buffer | 1.75&micro;L
+   |Ultra II End Prep Enzyme Mix | 1.5&micro;L
+   |FFPE DNA Repair Mix | 1&micro;L
+   |Total | 30&micro;L
 
 2. Incubate at RT for <span style="color:red">5 mins</span> or <span style="color:blue">10 mins</span> then 65&deg;C for <span style="color:red">5 mins</span> or <span style="color:blue">10 mins</span>
 
@@ -301,7 +300,7 @@ content='**Overview:** The following protocol is adapted from the methods of [Qu
     | Ligation Enhancer | 1&micro;L
     | Total | 53.5&micro;L
    
-    > **NOTE:** Use a SINGLE barcode per biological sample. 
+> **NOTE:** Use a SINGLE barcode per biological sample. 
 
 5. Incubate at RT for <span style="color:red">10 mins</span> or <span style="color:blue">20 mins</span>, 70&deg;C for 5 mins then place on ice.
 

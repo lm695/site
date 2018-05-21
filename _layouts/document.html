@@ -4,9 +4,17 @@
     {% include head_document.html %}
 </head>
 <body>
-<div class="page">
     {% include topnav_document.html %}
-    
+
+    <!--
+    <div id='firstheader'>Title</div>
+    <div id='pageheader'>{{ page.document_name }}</div>
+    <div id="pagefooter">
+        {{ page.revision_date }}
+        <span class="custom-footer-page-number">Page: </span>
+    </div>
+    -->
+
     <!-- Page Content -->
     <div class="container">
         <div id="main">
@@ -28,7 +36,6 @@
         </div>
     </div>
     <!-- /.container -->
-</div>
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

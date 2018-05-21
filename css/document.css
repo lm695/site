@@ -3,9 +3,39 @@
     --h1-font-size: 32pt;
     --h2-font-size: 18pt;
     --h3-font-size: 12pt;
+    --contrast-colour: #F1605D;
+}
+
+@page {
+    size: A4;
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+    margin-bottom: 2cm;
+    margin-right: 1.5cm;
+    padding-top: 1cm;
+
+    @top-center { content: element(pageheader) }
+
+/*@bottom-center { content: element(pagefooter) }*/
+
+/*@bottom-right {*/
+/*content: counter(page) " of " counter(pages);*/
+/*}*/
+
+}
+
+@page :first {
+    /*@top-right { content: element(firstheader) }*/
 }
 
 @media print {
+    :root {
+        --body-font-size: 9pt;
+        --h1-font-size: 20pt;
+        --h2-font-size: 14pt;
+        --h3-font-size: 12pt;
+    }
+
     body {
         font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
         font-weight: 500;
@@ -17,9 +47,49 @@
         margin: auto;
     }
 
+    #main {
+        border: solid 1px blue;
+    }
     .pagebreak {
         page-break-before: always;
     }
+}
+
+#firstheader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*display: block;*/
+    position: running(header);
+    border: solid 1px red;
+}
+
+#pageheader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*display: block;*/
+    position: running(header);
+    border: solid 1px red;
+}
+
+#pagefooter {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    /*display: block;*/
+    position: running(footer);
+    border: solid 1px red;
+}
+
+.custom-footer-page-number:after {
+    content: counter(page);
 }
 
 @media screen {
@@ -36,13 +106,24 @@
         border: 1px solid darkgrey;
         border-radius: 5px;
     }
+    #pageheader {
+        display: none;
+    }
+    #pagefooter {
+        display: none;
+    }
+}
+
+table {
+    background-color: transparent;
+    font-size: 90%;
 }
 
 blockquote {
     font-size: var(--body-font-size);
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #eee;
+    border: 1px solid var(--contrast-colour);
     border-left-width: 5px;
     border-radius: 3px;
 }
