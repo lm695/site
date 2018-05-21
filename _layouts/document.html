@@ -2,40 +2,47 @@
 <html>
 <head>
     {% include head_document.html %}
+
+    <script>
+        function printDocument() {
+            window.print();
+        }
+    </script>
 </head>
 <body>
-    {% include topnav_document.html %}
+{% include topnav_document.html %}
 
-    <!--
-    <div id='firstheader'>Title</div>
-    <div id='pageheader'>{{ page.document_name }}</div>
-    <div id="pagefooter">
-        {{ page.revision_date }}
-        <span class="custom-footer-page-number">Page: </span>
-    </div>
-    -->
+<!--
+<div id='firstheader'>Title</div>
+<div id='pageheader'>{{ page.document_name }}</div>
+<div id="pagefooter">
+    {{ page.revision_date }}
+    <span class="custom-footer-page-number">Page: </span>
+</div>
+-->
 
-    <!-- Page Content -->
-    <div class="container">
-        <div id="main">
-            <!-- Preamble Column -->
+<!-- Page Content -->
+<div class="container">
+    <button class="btn btn-default hidden-print" id="print-button" onclick="printDocument()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Print</button>
+    <div id="main">
+        <!-- Preamble Column -->
+        <div>
+            <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" />
             <div>
-                <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" />
-                <div>
-                    <h1>{{ page.title_text }}</h1>
-                    <p>Document: {{ page.document_name }}</p>
-                    <p>Creation Date: {{ page.creation_date }}</p>
-                    <p>Revision Date: {{ page.revision_date }}</p>
-                    <p>Forked from: {{ page.forked_from }}</p>
-                    <p>Author: {{ page.author }}</p>
-                </div>
-            </div>
-            <div style="clear: left;">
-                {{content}}
+                <h1>{{ page.title_text }}</h1>
+                <p>Document: {{ page.document_name }}</p>
+                <p>Creation Date: {{ page.creation_date }}</p>
+                <p>Revision Date: {{ page.revision_date }}</p>
+                <p>Forked from: {{ page.forked_from }}</p>
+                <p>Author: {{ page.author }}</p>
             </div>
         </div>
+        <div style="clear: left;">
+            {{content}}
+        </div>
     </div>
-    <!-- /.container -->
+</div>
+<!-- /.container -->
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}

@@ -102,9 +102,15 @@
         color: black;
         background-color: white;
         margin: auto;
+        margin-top: 10px;
         padding: 10px;
         border: 1px solid darkgrey;
         border-radius: 5px;
+    }
+
+    #print-button {
+        color: var(--main-colour);
+        background-color: var(--text-colour);
     }
     #pageheader {
         display: none;
