@@ -8,7 +8,8 @@ summary:
 sidebar: artic_sidebar
 permalink: ebov-seq-sop-1.0.0.html
 folder: artic
-title_text: "Ebola virus sequencing protocol:<br/>Nanopore, amplicon, native barcoding"
+title_text: "Ebola virus sequencing protocol"
+subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqSOP-v1.0.0"
 creation_date: 2018-05-17
 revision_date: 2018-05-18
