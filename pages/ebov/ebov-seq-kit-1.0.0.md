@@ -30,6 +30,16 @@ Ebola virus Nanopore sequencing protocol:
 Ebola virus Nanopore sequencing kit-list:
 : [http://artic.network/ebov-seq-kit-1.0.0.html](http://artic.network/ebov-seq-kit-1.0.0.html)
 
+----
+
+{% include icon-callout.html
+file='wellcome-logo-black-small.png'
+url='http://wellcome.ac.uk'
+width='10%'
+title='Funded by the Wellcome Trust'
+subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
+%}
+
 <div class="pagebreak"> </div>
 
 ### Library Preparation and Sequencing Reagents:

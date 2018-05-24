@@ -27,15 +27,18 @@
     <div id="main">
         <!-- Preamble Column -->
         <div>
-            <img style="float: left; width: 192px; height: 252px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" />
+            <img style="float: left; width: 192px; height: 255px; margin: 0px 15px 15px 0px;" src="/images/logo-sticker.png" />
             <div>
                 <h1>{{ page.title_text }}</h1>
                 <h2 class="subtitle">{{ page.subtitle_text }}</h2>
-                <p>Document: {{ page.document_name }}</p>
-                <p>Creation Date: {{ page.creation_date }}</p>
-                <p>Revision Date: {{ page.revision_date }}</p>
-                <p>Forked from: {{ page.forked_from }}</p>
-                <p>Author: {{ page.author }}</p>
+                <table style=""><tbody>
+                <tr style="background-color: transparent"><td style="text-align: right">Document: </td><td>{{ page.document_name }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Creation Date: </td><td>{{ page.creation_date }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Revision Date: </td><td>{{ page.revision_date }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Forked from: </td><td>{{ page.forked_from }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Author: </td><td>{{ page.author }}</td></tr>
+                <tr style="background-color: transparent"><td style="text-align: right">Licence: </td><td><a class="no_icon" rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a></td></tr>
+                </tbody></table>
             </div>
         </div>
         <div style="clear: left;">

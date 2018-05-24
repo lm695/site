@@ -1,4 +1,4 @@
-<div class="bs-callout bs-callout-{{include.type}}">
+<div {% if {{include.type}} %}class="bs-callout bs-callout-{{include.type}}"{% endif %}>
     <div style="width: 100%; display: table;">
         <div style="display: table-row">
             <div style="{% if {{include.width}} %}width: {{include.width}};{% else %}min-width:1%;{% endif %} {% if {{include.height}} %}min-height: {{include.height}};{% endif %} display: table-cell; text-align: left">
