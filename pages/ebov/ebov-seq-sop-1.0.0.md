@@ -5,9 +5,8 @@ layout: document
 last_updated: May 18, 2018
 tags: [protocol]
 summary:
-sidebar: artic_sidebar
 permalink: ebov-seq-sop-1.0.0.html
-folder: artic
+folder: ebov
 title_text: "Ebola virus sequencing protocol"
 subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqSOP-v1.0.0"

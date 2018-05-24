@@ -5,9 +5,8 @@ layout: document
 last_updated: May 18, 2018
 tags: [kit-list]
 summary:
-sidebar: artic_sidebar
 permalink: ebov-seq-kit-1.0.0.html
-folder: artic
+folder: ebov
 title_text: "Ebola virus sequencing kit-list"
 subtitle_text: "Nanopore | amplicon | native barcoding"
 document_name: "ARTIC-EBOV-seqKit-v1.0.0"
