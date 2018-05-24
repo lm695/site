@@ -186,8 +186,7 @@ Ebola virus Nanopore sequencing kit-list:
     |----------------|------------|------------|-------| 
     |Heat Activation |98&deg;C        |30 seconds  |1      |
     |Denaturation    |98&deg;C        |15 seconds  |35     |
-    |Annealing       |60&deg;C        |30 seconds  |.      |
-    |Extension       |72&deg;C        |120 seconds |.      |
+    |Annealing       |65&deg;C        |300 seconds |.      |
     |Hold            |4&deg;C         |Indefinite  |1      |				
 
 10. Clean-up the amplicons using the following protocol in the TEMPLATE HOOD:
