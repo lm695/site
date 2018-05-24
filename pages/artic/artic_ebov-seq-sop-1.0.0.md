@@ -186,8 +186,7 @@ Ebola virus Nanopore sequencing kit-list:
     |----------------|------------|------------|-------| 
     |Heat Activation |98&deg;C        |30 seconds  |1      |
     |Denaturation    |98&deg;C        |15 seconds  |35     |
-    |Annealing       |60&deg;C        |30 seconds  |.      |
-    |Extension       |72&deg;C        |120 seconds |.      |
+    |Annealing       |60&deg;C        |300 seconds |.      |
     |Hold            |4&deg;C         |Indefinite  |1      |				
 
 10. Clean-up the amplicons using the following protocol in the TEMPLATE HOOD:
@@ -322,7 +321,7 @@ Ebola virus Nanopore sequencing kit-list:
 
 6. Pool all barcoded fragments together into a clean 1.5 ml Eppendorf tube
 
-7. Add 26.75&micro;L Ampure XP beads per sample.
+7. Add 53&micro;L Ampure XP beads per sample.
 
 8. Incubate for <span style="color:red">5 mins</span> or <span style="color:blue">10 mins</span>.
 
