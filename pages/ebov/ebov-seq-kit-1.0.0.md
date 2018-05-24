@@ -52,7 +52,7 @@ Ebola virus Nanopore sequencing kit-list:
    | **TOTAL COST** | | | | | **£13,599**
                
                
-<div class="pagebreak"> </div>
+<div class="pagebreak"></div>
 
 ### Equipment and Containment
 
