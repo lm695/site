@@ -34,16 +34,7 @@ Ebola virus Nanopore sequencing kit-list:
 
 <br /><br /><br />
 
-----
-
-{% include icon-callout.html
-file='wellcome-logo-black-small.png'
-url='http://wellcome.ac.uk'
-width='10%'
-title='Funded by the Wellcome Trust'
-subtitle='Collaborators Award 206298/Z/17/Z --- <a href="artic.network">ARTIC network</a>'
-%}
-
+{% include wellcome-trust.html %}
 
 <div class="pagebreak"> </div>
 
